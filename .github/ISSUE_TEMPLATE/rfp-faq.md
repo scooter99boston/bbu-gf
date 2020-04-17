@@ -1,6 +1,6 @@
 ---
 name: RFP Question Template
-about: Bedrock Governance Framework Issue Template for Reviewers
+about: Request for Proposal question template for interested Utility Service Providers
 title: "[BBU-RFP] Question Title"
 labels: ''
 assignees: ''
