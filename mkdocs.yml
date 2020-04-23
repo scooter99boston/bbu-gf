@@ -8,6 +8,7 @@ nav:
     - 'Consortium': 'gf_info/consortium.md'
     - 'Motivation': 'gf_info/transition.md'
     - 'Membership': 'gf_info/membership.md'
+    - 'Pricing': 'gf_info/fee_schedule.md'
 - Constitutional:
     - 'Master Document': 'gf_info/masterdoc.md'
     - 'Glossary': 'gf_info/glossary.md'

@@ -33,7 +33,7 @@ The BoD also maintains an Executive Committee consisting of the Chairperson and 
 * Charter Approval Date Jan 31, 2018
 * Charter Location Bedrock Consortium Foundation Bylaws
 
-## Technical Governance Board (TGB)
+## Technical Steering Committee (TSC)
 The Technical Governance Board is responsible for the technical design, architecture, and policies governing Bedrock Consortium Infrastructure. All members of this council are technical experts
 appointed by the BoD, and one of its chairpersons, if not already a Trustee, serves as an ex-officio member of the BoD unless the BoD makes an exception.
 
@@ -51,6 +51,14 @@ The Steward Council is responsible for representing the expertise, interests, an
 * Meeting Page Location Steward Council Meeting Page
 
 ## Committees
+
+### Membership Committee
+Sustainabiklity campaign from time to time.
+
+
+
+### Finance Committee
+Sustainabiklity campaign from time to time.
 
 ### Audit Committee
 The Audit Committee is responsible for assisting the BoD in fulfilling its governance responsibilities by providing oversight of the Bedrock Consortium Foundation’s financial reporting, internal control systems, risk management systems, and internal and external audit functions. Members of this committee are appointed by the BoD.

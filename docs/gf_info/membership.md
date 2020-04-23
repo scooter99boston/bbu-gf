@@ -1,4 +1,4 @@
-The concepts outlined herein provide an informational synopsis for the operation of the Utility and participation in the Directed Fund. The executable [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx) (the "Partnership Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
+The concepts outlined herein provide an informational synopsis for the operation of the Utility and participation in the Directed Fund. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
 
 ## Membership requirements
 
@@ -38,30 +38,30 @@ Private sector entities (businesses) can join and renew membership on an annual 
 1. Governing Member:
     * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Utility. Minimally, this requires the member to contribute a *Validator Node* to the operation of the Ledger.
     * **Ledger Roles**:
-        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in Exhibit C of the Partnership Agreement.
+        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in Exhibit C of the Participation Agreement.
         2. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
     * **Restrictions**:
         1. Membership is limited to the number of Board of Director seats available.
         2. A FIFO waiting list is maintained by BoD to allow for new members to fill voids left by exiting members.
-        3. Must sign the required ```Network Agreements``` as set forth in the Partnership Agreement.
+        3. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
     * **Benefits**:
         1. A single representative on the Board of Directors.
         2. Appointment of representatives to any Committee within the Directed Fund.
         3. Approval, pending signed ```Network Agreements```, to act as a Transaction Endorser.
-        4. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Partnership Agreement.
+        4. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
 
 2. Operational Member
     * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Network. Minimally, this requires the member to contribute a *Validator Node* to the operation of the Ledger.
     * **Ledger Roles**:
-        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in ```Exhibit C``` of the Partnership Agreement.
+        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in ```Exhibit C``` of the Participation Agreement.
         2. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
     * **Restrictions**:
-        1. Must sign the required ```Network Agreements``` as set forth in the Partnership Agreement.
+        1. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
         2. Membership is limited to the number of nodes required to maintain optimal consensus performance. The optimal limit here must take into consideration a balance with decentralization requirements. The BoD will annually determine the number of nodes required to meet both consensus, decentralization, and budgetary requirements.
     * **Benefits**:
         1. Appointment of representatives to any Committee within the Directed Fund.
         2. Approval, pending signed ```Network Agreements```, to act as a Transaction Endorser.
-        3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Partnership Agreement.
+        3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
         4. Members with continuous participation, can reserve a position to be invited as a Founding Steward via a FIFO waiting list.
 
 3. Subscriber
@@ -69,11 +69,11 @@ Private sector entities (businesses) can join and renew membership on an annual 
     * **Ledger Roles**:
         1. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
     * **Restrictions**:
-        1. Must sign the required ```Network Agreements``` as set forth in the Partnership Agreement.
+        1. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
     * **Benefits**:
         1. Appointment of representatives to any Committee within the Directed Fund.
         2. Approval, pending signed ```Network Agreements```, to act as a Transaction Endorser.
-        3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Partnership Agreement.
+        3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
 
 ### Non-Membership Roles
 
@@ -83,7 +83,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
         1. *Transaction Author*: Interacts with a *Transaction Endorser* for the processing of write requests.
     * **Restrictions**:
         1. Only the transaction types outlined in the Utilities [ledger access policies](../gf_controlled/ledger_access_policies.md) and [ledger data policies](../gf_controlled/ledger_data_policies.md) are permitted.
-        2. MUST sign the ```Network Agreements``` as defined in the Partnership Agreement.
+        2. MUST sign the ```Network Agreements``` as defined in the Participation Agreement.
     * **Benefits**:
         1. Ability to use ledger for decentralized identity interactions.  
 

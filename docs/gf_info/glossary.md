@@ -1,5 +1,10 @@
 The Sovrin Foundation published in the Sovrin Governance Framework V2 a [glossary of industry terms](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8). The contents herein are considered additional terms specific to the **Bedrock Business Utility**.
 
+>Note: See [BBU Issue 12](https://github.com/bedrock-consortium/bbu-gf/issues/12)
+
+### Steward
+A general term for an organization that is responsible for providing and maintaining a portion of the infrastructure necessary to establish a public identity utility. Minimally, the organization must meet the requirements to be a member of the public identity utility and must operate at least one ```Node```.
+
 ### Node
 A computer network server running an instance of the code necessary to operate a distributed ledger or blockchain. In the Bedrock Consortium, a Node is operated by a Steward running an instance of the Bedrock Open Source Code to maintain the Bedrock Business Utility ( or DID Ledger). A Node must be either a Validator Node or an Observer Node.
 
@@ -71,3 +76,6 @@ A Trustee trusted by another Identity Owner to authorize sharing back a Recovery
 
 ### Membership Management System
 The means by which the Board of Directors tracks membership entitlements and status.
+
+### Digital Trust Ecosystem
+An interdependent group of enterprises, people and/or things that share a standardized trust model for mutually beneficial purposes, such as consumer and commercial interactions that are verifiable.
