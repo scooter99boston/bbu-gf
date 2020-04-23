@@ -1,3 +1,8 @@
+This term sheet provides a non-binding informational synopsis for the operation of the BBU Utility and participation in the BBU Directed Fund. It is superseded by the executable [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
+
+# No Longer needed
+
+###  
 ## Optimal Consensus Threshold
 A balance between budget requirements and technology limitations will define the number of validator nodes required to operate the Bedrock Business Utility ("BBU"). Initially this will be set at 25. The set of active nodes on the network will be periodically pulled from a pool of available nodes.
 
