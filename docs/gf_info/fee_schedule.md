@@ -30,3 +30,6 @@ Members, excluding *Contributors*, must be members of the [Linux Foundation](htt
 
 ### Subscription Plans
 Please visit the [BBU Subscription Procurement](https://github.com/bedrock-consortium/bbu-gf/issues/14) website.
+
+## Usage
+Non-members who desire to submit transactions to the Utility will need to contract directly with members who are providing Transaction Endorser services. The BBU has no authority over the fee schedules associated with the services of  Transaction Endorsers. Each Transaction Endorser can use and / or sell their transaction entitlements as they deem appropriate. 
