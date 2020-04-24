@@ -1,7 +1,6 @@
-
-![logo](./img/consortium-logo.png)
-
 The *Bedrock Consortium* is a collection of international private sector companies that operate the *Bedrock Business Utility (BBU)*, an independent self-governed non-profit legal entity that serves as a public identity utility and operates as a self-sustainable directed fund project under [The Linux Foundation](http://linuxfoundation.org/).
+
+<img src="./img/consortium-logo.png" alt="logo" height="100" width="200">
 
 The BBU is intended to serve as a safe-zone for organizations that desire to participate in [digital trust ecosystems](./gf_info/glossary.md) but require an enterprise grade governance framework that will:
 
