@@ -59,6 +59,9 @@ Sustainabiklity campaign from time to time.
 
 ### Finance Committee
 Sustainabiklity campaign from time to time.
+The [ToIP Foundation](http://trustoverip.org) recognizes the importance of the services of a Utility Service Providers and has established a dedicated *Utility Foundry Working Group* to aid governing bodies in selection and hiring of such providers. Typically, a governing body would initiate a bidding process for an annual contract with the necessary service-level-agreements (SLAs).
+
+The Board of Directors of the Bedrock Business Utility with advise from the *Finance Committee* and *Technical Steering Committee* will hire personnel responsible for the operation and maintenance of the Utility.
 
 ### Audit Committee
 The Audit Committee is responsible for assisting the BoD in fulfilling its governance responsibilities by providing oversight of the Bedrock Consortium Foundation’s financial reporting, internal control systems, risk management systems, and internal and external audit functions. Members of this committee are appointed by the BoD.

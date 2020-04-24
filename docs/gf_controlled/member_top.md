@@ -91,9 +91,17 @@ A Member:
 1. The selection of active Validator Nodes at any point in time, at least on the BBU, MUST be governed by the Node Selection Algorithm.
 2. Non-technical inputs or policy decisions implemented by the Node Selection Algorithm MUST be approved by the Bedrock Consortium Board of Directors.
 3. At any point in time, the Node Selection Algorithm MUST represent the TGB’s best efforts at designing an algorithm that applies the Core Principles of the Bedrock Consortium Governance Framework. Recognizing the inherent tension and tradeoffs between some of the Core Principles, the design of this algorithm should give priority to balancing:
-    1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability.
-    2. The Security by Design principles, in particular the principles of System Diversity and Secure Failure.
+    1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability. See *Diversity Goals* below.
+    2. The Security by Design principles, in particular the principles of System Diversity and Secure Failure. See *Diversity Goals* below.
 4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TGB MUST be published by the TGB in the official Sovrin Foundation Code Repository and made visible to all Members via a web page on the Bedrock Consortium website.
 
 ## 8. Reporting Policies
 1. A Member MUST report to the responsible Bedrock Consortium Governing Body any substantive change to the configuration or location of a Node within five (5) business days of the change.
+
+## 9. Diversity Goals
+While the *Node Selection Algorithm* will be *tuned* from time-to-time to address Performance as well as Decentralization Security by Design principles, the following diversity guidelines SHOULD be considered:
+
+* Number of nodes hosted in a specific data center
+* Number of nodes hosted in a geolocation
+* Number of nodes running on the IaaS
+* Number of nodes hosted by the same hosting provider
