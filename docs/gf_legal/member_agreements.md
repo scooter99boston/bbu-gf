@@ -1,5 +1,3 @@
-## Membership Agreements
-
 Members are required to enter into contractual agreements with the Bedrock Consortium.
 
 ### All Participants

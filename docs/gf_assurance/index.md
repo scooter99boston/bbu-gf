@@ -148,6 +148,6 @@ For the BBU Governance Framework:
 2. The Bedrock Board of Directors requires members to sign the contractual instruments and perform Self-Certification that the member is compliant with the [Bedrock Member Business Policies](../gf_controlled/member_business_policies.md) and [Bedrock Member Technical Policies](../gf_controlled/member_top.md). This Self-Certification is reviewed by the responsible Bedrock Governing Body and reported to the Bedrock Board of Directors prior to approval of the Steward.
 
 ### Trust Assurance Matrix
-The BBU Trust AssuranceMatrix is a tabbed spreadsheet which correlates existing Bedrock Governance Framework Policy statements across BBU Governance Framework documents and relevant stakeholders. This matrix is the foundation of self and third-party audits needed to verify compliance to the Sovrin Governance Framework.
+The BBU Trust Assurance Matrix is a tabbed spreadsheet which correlates existing Bedrock Governance Framework Policy statements across BBU Governance Framework documents and relevant stakeholders. This matrix is the foundation of self and third-party audits needed to verify compliance to the Sovrin Governance Framework.
 
 © 2020 by Bedrock Consortium. This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International License ( http://creativecommons.org/licenses/by-sa/4.0/ ).

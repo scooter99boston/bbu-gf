@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | Data and metadata processed by Nodes operated by Stewards in the course of completing a Transaction with the Bedrock Business Utility. |
-| Governed By | [Sovrin Technical Governance Board](https://sovrin.org/wp-content/uploads/Sovrin-Technical-Governance-Board-Charter-V4.pdf) |
+| Governed By | [Sovrin Technical Steering Committee](https://sovrin.org/wp-content/uploads/Sovrin-Technical-Governance-Board-Charter-V4.pdf) |
 
 
 ## Ledger

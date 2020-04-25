@@ -10,6 +10,9 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Governs | Chartering, Types and Membership, Chairpersons, Facilitators, Voting, Self-Organization, Meetings, and Meeting Pages |
 | Governed By | Bedrock Consortium Board of Directors |
 
+**NOTE**:
+* See [Issue 17](https://github.com/bedrock-consortium/bbu-gf/issues/17)
+* See [Issue 20](https://github.com/bedrock-consortium/bbu-gf/issues/20)
 
 ## 1. Chartering
 1. The organizers of a new Bedrock Consortium Governing Body MUST submit a charter to the Bedrock Consortium of Directors (BoD).
@@ -50,7 +53,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 
     a. Have at least one and MAY have up to three chairpersons, either appointed by the Bedrock Consortium BoD or elected by their members.
 
-    b. Have at least five members, including the chairperson(s).
+    b. Have at least three members, including the chairperson(s).
 
     c. State any other specific membership requirements in its charter.
 
@@ -59,7 +62,6 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
     b. MAY limit the total number of voting members.
     c. MAY establish membership term limits.
 4. A committee:
-
     a. SHOULD have a Trustee serving as at least one of its chairperson(s).		
     b. MAY limit the total number of voting members.
     c. MAY establish membership term limits.
