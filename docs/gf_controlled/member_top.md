@@ -13,7 +13,11 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 ## 1. Ledger Software Policies
 
 1. The Bedrock Board of Directors MUST decide the software technology and version used by all Nodes (Validator, Observer). This software is referred to as the *Bedrock Open Source Code*.
-2. The Bedrock Board of Directors MAY leverage the Technical Steering Committee (TSC) or another 3rd party service to maintain a version of the Bedrock Open Source Code.
+2. The Bedrock Board of Directors MUST require the TSC to establish best practices for continuous delivery and integration of the *Bedrock Open Source Code* using containerization.
+3. The Bedrock Board of Directors MUST require the TSC and/or the Utility Service Provider to deploy an upgrade notification process that will allow Stewards to automatically recognized and act when upgrades are available.   
+4. The Bedrock Board of Directors MAY leverage the Technical Steering Committee (TSC) or another 3rd party service to maintain a version of the Bedrock Open Source Code.
+5. The Bedrock Board of Directors SHOULD require the TSC and/or the Utility Service Provider to automate any prescribed tools that are expected to be used by a node.
+6. The Bedrock Board of Directors MUST require the TSC and/or the Utility Service Provider to clearly articulate the mechanism by which a Steward schedules and communicates downtime.
 
 ## 2. General Security Policies
 
@@ -29,17 +33,17 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 ## 3. General Node Policies
 A Member Node:
 
-1. MUST be available to run as a Validator Node or Observer Node on any of the formal ledgers associated with the Utility environments.
+1. MUST be available to run as a Validator Node or Observer Node on any of the formal ledgers associated with the Utility environments (i.e.: prod, stage, dev)
 1. MUST run a release of the Bedrock Open Source Code that has been approved and designated by the Bedrock Board of Directors and Technical Steering Committee (TSC).
 1. MUST facilitate an upgrade to a new version of the Bedrock Open Source Code within three (3) business days of a new release that has been:
 
 	1. recommended by the TSC, and
 	2. accepted by the Bedrock Consortium.
 
-1. MUST register all Node configuration data required by the Pool Ledger in a timely manner, keeping information up to date within three (3) business days of changes.
+1. MUST register all Node configuration data in a timely manner and keep information up to date within three (3) business days of changes.
 1. MUST have at least two (2) IT-qualified persons assigned to administer the node, and at least one other person that has adequate access and training to administer the Node in an emergency, such as the network being unable to reach consensus or being under attack. See the TSC regarding specific *Crisis Management Plan* details. See [Issue 23](https://github.com/bedrock-consortium/bbu-gf/issues/23).
-1. MUST supply contact info for all administrators to the Bedrock Consortium, whose accuracy is tested at least quarterly (e.g., by sending an email and/or text that doesn’t bounce).
-1. MUST maintain a system backup or snapshot or image such that recovering the system from failure could be expected to take one hour or less.
+1. MUST supply contact info for all administrators to the Bedrock Consortium, whose accuracy is tested at least quarterly (e.g., by acknowledging the receipt of an email or text within 24hrs).
+1. MUST recover the system from failure in one hour or less.
 
 
 ## 4. Node Technical Policies
@@ -57,29 +61,35 @@ For all ledgers within the Utility environments list, the following requirements
 6. MUST have adequate RAM (in late 2020, 32 GB of RAM is considered adequate).
 7. MUST have at least 1 TB, with the ability to grow to 2 TB, of reliable (e.g., RAIDed) disk space, with an adequately sized boot partition.
 8. MUST have a high-speed connection to the internet with highly available, redundant pipes (as of late 2020, 100 Mbps was considered adequate).
-9. MUST have at least one dedicated NIC for BBU Validator Node consensus traffic, and a different NIC to process external requests. Each NIC must have a stable, static, world-routable IP address.
-10. MUST be implemented in a way that does not endanger Bedrock's high availability architecture, which is pool-based rather than node-based. Nodes should not take more responsibility for high availability than what is contemplated by the Node Selection Algorithm. For example, they should listen at exactly one pair of network addresses (see 3.9 above), using exactly one set of keys to respond to BBU/Indy protocol traffic at any one time, and adhere to a minimal failover recovery delay period specified by the Bedrock Consortium (or 30 seconds if not specified).
-11. MUST have a system clock that is demonstrably in sync with well-known NTP servers.
-12. SHOULD have a power supply consistent with high availability systems.
+9. MUST have the following dedicated NICs:
+
+		1. a public NIC for all Validator-to-Validator consensus traffic that is a stable, static, world-routable IP address.
+		2. a private NIC for all CLI-to-Validator traffic
+
+10. MUST prevent traffic originating from the Validator node to reach the Validator's intranet domain.  
+11. MUST be implemented in a way that does not endanger Bedrock's high availability architecture, which is pool-based rather than node-based. Nodes should not take more responsibility for high availability than what is contemplated by the Node Selection Algorithm. For example, they should listen at exactly one pair of network addresses (see 3.9 above), using exactly one set of keys to respond to BBU/Indy protocol traffic at any one time, and adhere to a minimal failover recovery delay period specified by the Bedrock Consortium (or 30 seconds if not specified).
+12. MUST have a system clock that is demonstrably in sync with well-known NTP servers.
+13. SHOULD have a power supply consistent with high availability systems.
 
 
 ## 5. Node Security Policies
 A Member:
 
-1. MUST maintain Member keys on a separate machine from the machine that runs their node. This machine, called the “CLI (Command Line Interface) system”, uses Member keys to authorize the Node to participate in the pool, and is thus the basis for trust for the node and the Member's identity on the network. The CLI system is not required to have high-end hardware, but in terms of IT best practices for security , it must meet or exceed the standards for the Node (see following items).
+1. MUST maintain its [CLI Private Key](../gf_info/glossary.md) on a separate machine from the machine that runs their node. This machine, called the “CLI (Command Line Interface) system”, uses the *CLI Private Key* to authorize the Node to participate in the pool, and is thus the basis for trust for the node and the Member's identity on the network. The CLI system is not required to have high-end hardware, but in terms of IT best practices for security, it must meet or exceed the standards for the Node (see following items).
 2. MUST provide certification that their Node runs in a locked datacenter with appropriate levels of security, including the specifications that they target (e.g., SSAE 16 type II compliance; other standards may also be acceptable).
 3. MUST assert that their Node is isolated from internal systems of a Member (because the Validator Node is publicly visible and thus an inappropriate candidate for access to privileged internal networks).
-4. MUST assert that their Node, and its underlying systems, uses state-of-the-art authentication for remote access (at least SSH with key plus password plus source IP firewall rule, and two-factor authentication wherever possible).
-5. MUST NOT allow access (remote or local) to the Node or CLI systems by anyone other than assigned admins.
-6. MUST apply the latest security patches within one (1) week or less (24 hours or less is recommended).
-7. MUST attest that the Node runs on a server protected by a firewall that, at minimum:
+4. MUST assert that their Node, and its underlying systems, uses state-of-the-art authentication for remote access via   SSH with key plus password plus source IP firewall rule.
+5. SHOULD implement two-factor authentication for SSH access.
+6. MUST NOT allow access (remote or local) to the Node or CLI systems by anyone other than assigned admins.
+7. MUST apply the latest security patches within one (1) week or less (24 hours or less is recommended).
+8. MUST attest that the Node runs on a server protected by a firewall that, at minimum:
 
     1. Disallows public ingress except on ports used by the Node software (different machines may choose to expose ledger features on different ports, so no standard port setup is required).
     1. Optionally enables SSH, Remote Desktop, and similar remote access tools but constrains ingress for these tools in some way that excludes the public but allows access for admins.
     1. Locks down egress ports to limit the ability to jump from Node to some other location.
 
-8. MUST run the Member security check tool as requested, and MUST receive TSC approval of the results before the Node is authorized to participate in consensus.
-9. MUST run the Member security check tool from time to time as requested by the TSC and provide the test results report to the TSC within three (3) business days.
+9. MUST run a set of TSC prescribed tools and receive TSC approval of the results before the Node is authorized to participate in consensus.
+10. MUST run a set of TSC prescribed tools from time to time as requested by the TSC and provide the test results report to the TSC within three (3) business days.
 
 See [Issue 24](https://github.com/bedrock-consortium/bbu-gf/issues/24).
 
@@ -109,22 +119,23 @@ While the *Node Selection Algorithm* will be *tuned* from time-to-time to addres
 
 * Number of nodes hosted in a specific data center
 
-		* No more than 10% of total active Validator pool
-		* Assuming an active validator pool of 25, this would be no more that 2.
+	* See IaaS stipulation.
 
 * Number of nodes hosted in a geolocation
 
-		* What is an appropriate granularity for geolocation?
-		* See IaaS stipulation.
+	* What is an appropriate granularity for geolocation?
 
 * Number of nodes running on the IaaS
 
-		* In 2019, [Gartner listed](https://www.cbronline.com/news/cloud-iaas-gartner) the following top 6 global enterprise cloud providers: AWS, Microsoft, Alibaba, Google, Oracle  and IBM. These providers have the ability to meet two key requirements for Stewards: (a) Standards compliance and certification; (b) Many (>15) availability zones across numerous (>5) geographic regions.
-		* If a Steward desires to take on the compliance costs for in-house hosting certification, this will add diversity to the Utility.
-		* Assuming no in-house hosting, no more that 10% of total active Validator pool should be hosted in the same  availability zones of an IaaS.
-		* Assuming and active validator pool of 25, this would be no more that 2.
+	* In 2019, [Gartner listed](https://www.cbronline.com/news/cloud-iaas-gartner) the following top 6 global enterprise cloud providers: AWS, Microsoft, Alibaba, Google, Oracle  and IBM. These providers have the ability to meet two key requirements for Stewards: (a) Standards compliance and certification; (b) Many (>15) availability zones across numerous (>5) geographic regions.
+	* If a Steward desires to take on the compliance costs for in-house hosting certification, this will add diversity to the Utility.
+	* Assuming no in-house hosting, no more that 10% of total active Validator pool should be hosted in the same  availability zones of an IaaS.
+	* Assuming and active validator pool of 25, this would be no more than 2 nodes on any given availability zone for an IaaS.
+	* In order to prevent IaaS vulnerabilities to impact consensus, no more than 33% of the active validator pool should be running on a specific IaaS.
+	* Assuming and active validator pool of 25, this would imply that no more than 8 nodes should be hosted on any one IaaS.
 
 * Number of nodes hosted by the same hosting provider
 
-		* The relationship between a Steward and a Hosting Provider is outside the scope of the BBU-GF. Hosting provider decisions have financial impacts on Stewards and as a result the Consortium should not insert itself into that decision making process.
-		* No restrictions.
+	* The relationship between a Steward and a Hosting Provider is outside the scope of the BBU-GF. Hosting provider decisions have financial impacts on Stewards and as a result the Consortium should not insert itself into that decision making process.
+	* Stewards should expect hosting providers to support multi-cloud hosting of Indy-Node SaaS services.
+	* No restrictions.
