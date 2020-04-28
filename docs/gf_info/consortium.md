@@ -1,6 +1,6 @@
 
 ## Non-Profit Organization
-The **Bedrock Consortium** ("Consortium") is a private-sector, international non-profit association of companies that share a common interest in collaborating on the governance of a dedicated trusted decentralized identity utility that can reliably serve the physical and online identity needs of international commerce. The Consortium is focused on the governance of a dedicated decentralized identity utility for trusted commerce. The Consortium represents a formal Trust Community consisting of participating members that adhere to the *Bedrock Business Utility Governance Framework* ("BBU-GF").
+The **Bedrock Consortium** ("Consortium") is an international non-profit association of members that share a common interest in collaborating on the delivery of the infrastructure and governance necessary for a dedicated and trusted public identity utility based on decentralized identity technology. The utility is intended to reliably serve the verifiability of both physical and online digital identity interactions. The Consortium is focused on the governance of a dedicated decentralized identity utility for the exchange fo trusted data. The Consortium represents a formal Trust Community consisting of participating members that adhere to the *Bedrock Business Utility Governance Framework* ("BBU-GF").
 
 ### Legal Entity Structure
 The [Linux Foundation](https://www.linuxfoundation.org/) (the “LF”) is dedicated to building sustainable ecosystems around open source projects to accelerate technology development and industry adoption. It provides support for open source communities through financial and intellectual resources, infrastructure, services, events, and training. The LF also provides a proven legal structure for the establishment of open source projects as non-profit legal entities for members.
@@ -32,7 +32,7 @@ Participation in or use of a project entity may require the signing of one or mo
 
 The BBU Participation Agreement binds members to project funding commitments, policies, etc. It also puts forth a project charter that addresses the governance of directed fund and customized requirements for *Network Agreements*.
 
-For details pertaining to *Network Agreements*, see "Exhibit B" of the Bedrock Business Utility Fund Charter as articualted in the [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
+For details pertaining to *Network Agreements*, see "Exhibit B" of the Bedrock Business Utility Fund Charter as articulated in the [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
 
 The *Bedrock Consortium Project* does not require the signing of a *Contributors License Agreement (CLA)*.
 

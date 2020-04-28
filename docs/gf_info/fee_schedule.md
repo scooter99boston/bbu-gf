@@ -9,9 +9,9 @@ The membership levels and associated fees are listed below.
 
 | Membership Class | Annual Membership Fees	| Node Hosting Requirement	| Write Transaction Entitlements|
 | --- | --- | --- | --- |
-| Governing Member | $15000	| 2	| Unlimited |
-| Operational Member | $30000 |	1	| Unlimited |
-| Subscriber | $40000	| 0 |	50 |
+| Governing Member | TBD	| 2	| Unlimited |
+| Operational Member | TBD |	1	| Unlimited |
+| Subscriber | TBD	| 0 |	50 |
 |	Contributor Member | $0 | 0 | 0 |
 
 ## Subscription Packages
@@ -19,7 +19,7 @@ Subscriber membership comes with a preset level of  transaction entitlements per
 
 | Transaction Entitlements | Package Cost |
 | --- | --- |
-| 50 | $10000 |
+| 50 | TBD |
 
 ## Process
 
@@ -32,4 +32,4 @@ Members, excluding *Contributors*, must be members of the [Linux Foundation](htt
 Please visit the [BBU Subscription Procurement](https://github.com/bedrock-consortium/bbu-gf/issues/14) website.
 
 ## Usage
-Non-members who desire to submit transactions to the Utility will need to contract directly with members who are providing Transaction Endorser services. The BBU has no authority over the fee schedules associated with the services of  Transaction Endorsers. Each Transaction Endorser can use and / or sell their transaction entitlements as they deem appropriate. 
+Non-members who desire to submit transactions to the Utility will need to contract directly with members who are providing Transaction Endorser services. The BBU has no authority over the fee schedules associated with the services of  Transaction Endorsers. Each Transaction Endorser can use and / or sell their transaction entitlements as they deem appropriate.

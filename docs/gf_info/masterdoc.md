@@ -1,5 +1,5 @@
 ## Preface
-This is an official document of the ​Bedrock Business Utility Governance Framework​ ("BBU-GF"). If you have comments or suggestions, we invite you to submit them using our [issue tracker](https://github.com/bedrock-consortium/bbu-gf/issues). If you are interested in joining the Bedrock Consortium, please fell free to [contact us](https://bedrock-consortium.github.io/bbu-gf/contact_us/).
+This is an official document of the ​Bedrock Business Utility Governance Framework​ ("BBU-GF"). If you have comments or suggestions, we invite you to submit them using our [issue tracker](https://github.com/bedrock-consortium/bbu-gf/issues). If you are interested in joining the Bedrock Consortium, please feel free to [contact us](https://bedrock-consortium.github.io/bbu-gf/contact_us/).
 
 ## Version Control
 
@@ -98,7 +98,7 @@ All BBU-GF documents will reside in a [Github source control repository](https:/
 1. Stable versions of the BBU-GF must be approved by the Board of Directors.
 2. Approved versions need to be specified in the ```Version Control``` section of this document.
 3. A static PDF file associated with the approved version MUST be stored in the ```/pdf/approved``` folder of the GitHub repo.
-4. ```Appendix A``` of this document must be updated to point to the newly approved PDF file. 
+4. ```Appendix A``` of this document must be updated to point to the newly approved PDF file.
 
 ### Master Document Revisions
 These policies apply to any normative revision to the present document, exclusive of ```Appendix A```.
@@ -146,7 +146,7 @@ The following Controlled Documents are normative components of the BBU-GF. All f
 | Governing Body Policies | Chartering and functioning of BBU Governing Bodies | Board of Directors |
 | Ledger Access Policies | Read and write access to the Bedrock Business Utility | Governance Framework Working Group |
 |  Member Business Policies | Member qualification, enrollment, and operational status | Membership Committee |
-| Membership Technical Policies | Technical requirements for operating and protecting a components of the BBU infrastructure. | Technical Steering Committee|
+| Membership Technical Policies | Technical requirements for operating and protecting components of the BBU infrastructure. | Technical Steering Committee|
 | Economic Policies | Budgetary policies for the BBU. | Finance Committee |
 | Trust Mark Policies |Acceptable uses of the Bedrock Trust Mark| Governance Framework Working Group |
 

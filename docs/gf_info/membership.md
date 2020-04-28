@@ -1,4 +1,4 @@
-The concepts outlined herein provide an informational synopsis for the operation of the Utility and participation in the Directed Fund. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
+The concepts outlined herein provide an informational synopsis for the operation of the Bedrock Business Utility and participation in the Bedrock Business Directed Fund Project. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
 
 ## Membership requirements
 
@@ -38,7 +38,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
 1. Governing Member:
     * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Utility. Minimally, this requires the member to contribute a *Validator Node* to the operation of the Ledger.
     * **Ledger Roles**:
-        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in Exhibit C of the Participation Agreement.
+        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in ```Exhibit C``` of the Participation Agreement.
         2. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
     * **Restrictions**:
         1. Membership is limited to the number of Board of Director seats available.

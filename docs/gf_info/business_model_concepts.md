@@ -21,7 +21,7 @@ Some governing bodies may place diversity requirements on node owners. These req
 
 * Number of nodes hosted in a specific data center
 * Number of nodes hosted in a geolocation
-* Number of nodes running on the IaaS
+* Number of nodes running on the [IaaS](https://en.wikipedia.org/wiki/Infrastructure_as_a_service)
 * Number of nodes hosted by the same hosting provider
 
 #### BBU Perspective
@@ -32,18 +32,19 @@ Stewards MUST adhere to the [Member Technical and Organizational Policies](../gf
 ### Network Operation and Maintenance Services
 
 #### General Concept
-The management of a distributed ledger MUST be administered by skilled personnel that is familiar with the:
+The management of a distributed ledger MUST be administered by skilled personnel that is familiar with:
 
-* building, testing, and release a specific deployment
+* designing, building, testing and deployment of networks based on [distributed ledger technology](https://en.wikipedia.org/wiki/Distributed_ledger) (DLT)
+* maintaining and releasing reliable versions of a DLT
 * onboarding and configuration of nodes
-* monitoring and tuning of the ledger
+* monitoring and tuning of Hyperledger Indy networks
 
 The governing body of a public identity utility is responsible for hiring in-house or external resources to accomplish these tasks. The cumulative costs of such services have a direct impact on the financial budget for the Utility.
 
-The [ToIP Foundation](http://trustoverip.org) recognizes the importance of the services of a Utility Service Providers and has established a dedicated *Utility Foundry Working Group* to aid governing bodies in selection and hiring of such providers. For example, access to proven *request-for-proposal* (RFP) templates. Typically, a governing body would initiate a bidding process for an annual contract with the necessary service-level-agreements (SLAs).
+The [ToIP Foundation](http://trustoverip.org) recognizes the importance of the services of Utility Service Providers and has established a dedicated *Utility Foundry Working Group* to aid governing bodies in selection and hiring of such providers. For example, access to proven *request-for-proposal* (RFP) templates. Typically, a governing body would initiate a bidding process for an annual contract with the necessary service-level-agreements (SLAs).
 
 #### BBU Perspective
-The Board of Directors of the Bedrock Business Utility with advise from the *Finance Committee* and *Technical Steering Committee* will hire personnel responsible for the operation and maintenance of the Utility.
+The Board of Directors of the Bedrock Business Utility with advice from the *Finance Committee* and *Technical Steering Committee* will hire personnel responsible for the operation and maintenance of the Utility.
 
 ### Consortium Governance
 
