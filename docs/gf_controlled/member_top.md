@@ -52,8 +52,8 @@ For all ledgers within the Utility environments list, the following requirements
 1. MUST run on robust server-class hardware.
 2. If a Node is run on a VM, the Member:
 
-    1. MUST run on a mainstream hypervisor that receives timely patches from its vendor or community.
-    2. SHOULD apply hypervisor patches on a regular basis.
+	1.  MUST run on a mainstream hypervisor that receives timely patches from its vendor or community.
+	2. SHOULD apply hypervisor patches on a regular basis.
 
 3. The Node MUST run in an OS that is dedicated to the validator, i.e., a single-purpose (physical or virtual) machine that MUST run Bedrock Open Source Code, MAY run other software approved by the TSC, and MUST NOT run any other software. Software required to support the node, such as monitoring, backup, and configuration management software, are approved as a general category. However, Members should discuss with the TSC any software packages that transmit between the Member Node and the outside.
 4. MUST run a server with compatible versions of the operating systems supported by the Hyperledger Indy Node requirements as documented in the release notes.
@@ -63,8 +63,8 @@ For all ledgers within the Utility environments list, the following requirements
 8. MUST have a high-speed connection to the internet with highly available, redundant pipes (as of late 2020, 100 Mbps was considered adequate).
 9. MUST have the following dedicated NICs:
 
-		1. a public NIC for all Validator-to-Validator consensus traffic that is a stable, static, world-routable IP address.
-		2. a private NIC for all CLI-to-Validator traffic
+	1. a public NIC for all Validator-to-Validator consensus traffic that is a stable, static, world-routable IP address.
+	2. a private NIC for all CLI-to-Validator traffic
 
 10. MUST prevent traffic originating from the Validator node to reach the Validator's intranet domain.  
 11. MUST be implemented in a way that does not endanger Bedrock's high availability architecture, which is pool-based rather than node-based. Nodes should not take more responsibility for high availability than what is contemplated by the Node Selection Algorithm. For example, they should listen at exactly one pair of network addresses (see 3.9 above), using exactly one set of keys to respond to BBU/Indy protocol traffic at any one time, and adhere to a minimal failover recovery delay period specified by the Bedrock Consortium (or 30 seconds if not specified).
@@ -84,9 +84,9 @@ A Member:
 7. MUST apply the latest security patches within one (1) week or less (24 hours or less is recommended).
 8. MUST attest that the Node runs on a server protected by a firewall that, at minimum:
 
-    1. Disallows public ingress except on ports used by the Node software (different machines may choose to expose ledger features on different ports, so no standard port setup is required).
-    1. Optionally enables SSH, Remote Desktop, and similar remote access tools but constrains ingress for these tools in some way that excludes the public but allows access for admins.
-    1. Locks down egress ports to limit the ability to jump from Node to some other location.
+	1. Disallows public ingress except on ports used by the Node software (different machines may choose to expose ledger features on different ports, so no standard port setup is required).
+	1. Optionally enables SSH, Remote Desktop, and similar remote access tools but constrains ingress for these tools in some way that excludes the public but allows access for admins.
+	1. Locks down egress ports to limit the ability to jump from Node to some other location.
 
 9. MUST run a set of TSC prescribed tools and receive TSC approval of the results before the Node is authorized to participate in consensus.
 10. MUST run a set of TSC prescribed tools from time to time as requested by the TSC and provide the test results report to the TSC within three (3) business days.
@@ -106,8 +106,8 @@ A Member:
 2. Non-technical inputs or policy decisions implemented by the Node Selection Algorithm MUST be approved by the Bedrock Consortium Board of Directors.
 3. At any point in time, the Node Selection Algorithm MUST represent the TSC’s best efforts at designing an algorithm that applies the Core Principles of the Bedrock Consortium Governance Framework. Recognizing the inherent tension and tradeoffs between some of the Core Principles, the design of this algorithm should give priority to balancing:
 
-    1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability. See *Diversity Goals* below.
-    2. The Security by Design principles, in particular the principles of System Diversity and Secure Failure. See *Diversity Goals* below.
+	1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability. See *Diversity Goals* below.
+	1. The Security by Design principles, in particular the principles of System Diversity and Secure Failure. See *Diversity Goals* below.
 
 4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Sovrin Foundation Code Repository and made visible to all Members via a web page on the Bedrock Consortium website.
 
@@ -117,25 +117,31 @@ A Member:
 ## 9. Diversity Goals
 While the *Node Selection Algorithm* will be *tuned* from time-to-time to address Performance as well as Decentralization Security by Design principles, the following diversity guidelines SHOULD be considered:
 
-* Number of nodes hosted in a specific data center
+| Concern | Policy |
+| --- | --- |
+| Should restrictions be applied that limit the number of  nodes in the active Validator Pool that are hosted in a specific data center?| See IaaS Policy |
+| Should restrictions be applied that limit the number of  nodes in the active Validator Pool that are hosted in a specific geolocation? | See IaaS Policy |
+| Should restrictions be applied that limit the number of  nodes in the active Validator Pool that can be hosted on the same IaaS? | **YES** - See IaaS Policy |
+| Should restrictions be applied that limit the number of  nodes in the active Validator Pool that can be hosted by the same hosting provider? | **NO** - See Hosting Provider Policy |
 
-	* See IaaS stipulation.
+### IaaS Policy
+1. If a Steward desires to take on the compliance costs for in-house hosting certification, this will add diversity to the Utility.
+2. Some Stewards MAY desire to meet the needs of their membership obligations using external cloud providers that offer the necessary security and compliance certifications and offers world-wide data center coverage. The following SHOULD be considered when Stewards leverage any form of outsourced cloud computing (*Infrastructure as a service (IaaS)*, *Software as a service (SaaS)*, or *Platform as a service (PaaS)*):
 
-* Number of nodes hosted in a geolocation
+	1. In 2019, [Gartner listed](https://www.cbronline.com/news/cloud-iaas-gartner) the following top 6 global enterprise cloud providers: AWS, Microsoft, Alibaba, Google, Oracle  and IBM. These providers have the ability to meet two key requirements for Stewards:
 
-	* What is an appropriate granularity for geolocation?
+		1. Standards compliance and certification;
+		2. Many (>15) availability zones across numerous (>5) geographic regions.
 
-* Number of nodes running on the IaaS
+	2. There is no simple way to determine the appropriate degree of granularity relative to geolocation restrictions. Instead, limits SHOULD be applied to the number of nodes across availability zones within a particular IaaS.
 
-	* In 2019, [Gartner listed](https://www.cbronline.com/news/cloud-iaas-gartner) the following top 6 global enterprise cloud providers: AWS, Microsoft, Alibaba, Google, Oracle  and IBM. These providers have the ability to meet two key requirements for Stewards: (a) Standards compliance and certification; (b) Many (>15) availability zones across numerous (>5) geographic regions.
-	* If a Steward desires to take on the compliance costs for in-house hosting certification, this will add diversity to the Utility.
-	* Assuming no in-house hosting, no more that 10% of total active Validator pool should be hosted in the same  availability zones of an IaaS.
-	* Assuming and active validator pool of 25, this would be no more than 2 nodes on any given availability zone for an IaaS.
-	* In order to prevent IaaS vulnerabilities to impact consensus, no more than 33% of the active validator pool should be running on a specific IaaS.
-	* Assuming and active validator pool of 25, this would imply that no more than 8 nodes should be hosted on any one IaaS.
+		1. No more that 10% of total Active Validator Pool SHOULD be hosted in the same availability zones of an IaaS.
+		2. Assuming an Active Validator Pool of 25, this would be no more than 2 nodes on any given availability zone for an IaaS.
 
-* Number of nodes hosted by the same hosting provider
+	3. To minimize the impact IaaS vulnerabilities may have on  consensus, no more than 33% of the Active Validator Pool should be running on a specific IaaS.
+	4. Assuming an Active Validator Pool of 25, this would imply that no more than 8 nodes should be hosted on any one IaaS.
 
-	* The relationship between a Steward and a Hosting Provider is outside the scope of the BBU-GF. Hosting provider decisions have financial impacts on Stewards and as a result the Consortium should not insert itself into that decision making process.
-	* Stewards should expect hosting providers to support multi-cloud hosting of Indy-Node SaaS services.
-	* No restrictions.
+### Hosting Provider Policy
+The relationship between a Steward and a Hosting Provider is outside the scope of the BBU-GF. Hosting provider decisions have financial impacts on Stewards and as a result the Consortium SHOULD NOT insert itself into that decision making process.
+
+While no restrictions are suggested, a Steward SHOULD expect hosting providers to offer multi-cloud hosting options for  Indy-Node SaaS services so that IaaS policies can be observed across the BBU.
