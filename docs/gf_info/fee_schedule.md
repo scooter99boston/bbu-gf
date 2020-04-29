@@ -12,7 +12,7 @@ The membership levels and associated fees are listed below.
 | Governing Member | TBD	| 2	| Unlimited |
 | Operational Member | TBD |	1	| Unlimited |
 | Subscriber | TBD	| 0 |	50 |
-|	Contributor Member | $0 | 0 | 0 |
+|	Associate Member | $0 | 0 | 0 |
 
 ## Subscription Packages
 Subscriber membership comes with a preset level of  transaction entitlements per annual membership. Additional transactions can be acquired per annum according to the following table. While a Subscriber may purchase an unlimited number of entitlement packages, all unused transactions expire at years end without rollover./
@@ -24,7 +24,7 @@ Subscriber membership comes with a preset level of  transaction entitlements per
 ## Process
 
 ### Membership
-Members, excluding *Contributors*, must be members of the [Linux Foundation](https://www.linuxfoundation.org/) to qualify as a member of the BBU. Refer to the legal and fee requirements outlined in the Participation Agreement. For instructions on how to becomes a member, please refer to [getting started](https://bedrock-consortium.github.io/bbu-gf/contact_us/).
+Members, excluding *Associates*, must be members of the [Linux Foundation](https://www.linuxfoundation.org/) to qualify as a member of the BBU. Refer to the legal and fee requirements outlined in the Participation Agreement. For instructions on how to becomes a member, please refer to [getting started](https://bedrock-consortium.github.io/bbu-gf/contact_us/).
 
 >**Note**: See [Issue 10](https://github.com/bedrock-consortium/bbu-gf/issues/10) regarding Join v. Contact Us.
 

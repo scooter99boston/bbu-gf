@@ -17,8 +17,8 @@ In order to efficiently operate the ledger associated with the Utility, a combin
 | --- | --- | --- |
 | BoD Seats | 5 | Minimum Governing Members. BoD seats can increase but MUST not exceed 15 |
 | Minimum Production Pool Size  | 25 | Considers production and BoD factors. |
-| Minimum Test Pool Size  | 4 | Ledger used by Utility Service Provider and Technical Project Contributors.  |
-| Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Technical Project Contributors.||
+| Minimum Test Pool Size  | 4 | Ledger used by Utility Service Provider and Technical Project contributors.  |
+| Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Technical Project contributors.||
 | Minimum Total Pool Size | 32 | Considers requirements across all environments. |
 
 ## Membership Types
@@ -87,5 +87,5 @@ Private sector entities (businesses) can join and renew membership on an annual 
     * **Benefits**:
         1. Ability to use ledger for decentralized identity interactions.  
 
-2. Contributors
-    * **Description**: A category of membership that is limited to Contributor Members of the Linux Foundation. This membership category is limited to participation in Committees within the Technical Project.
+2. Associate
+    * **Description**: A category of membership that is limited to Associate Members of the Linux Foundation. This membership category is limited to participation in Committees within the Technical Project.
