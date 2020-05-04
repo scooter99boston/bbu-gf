@@ -1,4 +1,11 @@
-The Sovrin Foundation published in the Sovrin Governance Framework V2 a [glossary of industry terms](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8). The contents herein are considered additional terms specific to the **Bedrock Business Utility**.
+The Industry working on a convergence of industry terms between several glossary efforts, namely:
+
+* [ToIP Glossary]()
+* DIF Glossary Working Group](https://dif.groups.io/g/glossary)
+* [Sovrin Glossary](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8)
+* [NIST Glossary: A Taxonomic Approach to Understanding Emerging Blockchain Identity Management Systems (p50-51)](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.07092019-draft.pdf)
+
+The contents herein are considered additional terms specific to the **Bedrock Business Utility**.
 
 >Note: See [BBU Issue 12](https://github.com/bedrock-consortium/bbu-gf/issues/12)
 
@@ -84,4 +91,4 @@ An interdependent group of enterprises, people and/or things that share a standa
 The Private-Key used by a Steward when interacting with the Indy CLI.
 
 ### Validator Private Key
-The Private-Key used by the Validator Node when performing concensus. 
+The Private-Key used by the Validator Node when performing concensus.
