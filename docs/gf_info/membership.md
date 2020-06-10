@@ -40,7 +40,7 @@ Building on our [Glossary](./glossary.md), participants in the Consortium are re
 Private sector entities (businesses) can join and renew membership on an annual basis under three possible membership types:
 
 | Membership Type | Validator Node Hosting Required | Governing Body Participation Required | Authorized Endorser Privileges (Ledger Writes) |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | Governing Member | Yes | Yes - 1 Per Governing Body |Yes - Unlimited |
 | Operational Member | Yes | Yes - 2 |Yes - Unlimited |
 | Subscriber | No | No | Yes - Limited |
@@ -55,6 +55,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
         2. A FIFO waiting list is maintained by BoD to allow for new members to fill voids left by exiting members.
         3. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
         4. Utility Service Providers MAY NOT be a Governing Member.
+        5. Utility Service Providers MAY NOT participate in the Finance Committee.
     * **Benefits**:
         1. A single representative on the Board of Directors.
         2. Appointment of representatives to any Committee within the Directed Fund.
