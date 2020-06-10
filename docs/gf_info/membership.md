@@ -1,8 +1,6 @@
 The concepts outlined herein provide an informational synopsis for the operation of the Bedrock Business Utility and participation in the Bedrock Business Directed Fund Project. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
 
-## Membership requirements
-
-### Utility Infrastructure
+## Utility Infrastructure Requirements
 The Utility is an instance of a [ToIP Layer One Public Utility](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0289-toip-stack#layer-one-public-utilities-for-decentralized-identifiers-dids) based on [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) ("Indy"). In order to establish an operational budget for the Utility, several  infrastructure assumptions must be considered.
 
 1. Budgetary requirements dictate how much revenue is required to keep the Utility sustainable.
@@ -11,29 +9,41 @@ The Utility is an instance of a [ToIP Layer One Public Utility](https://github.c
 A balance between budget requirements and technology limitations will define the number of validator nodes required to operate the Utility. Initially this will be set at twenty-five (25) utility infrastructure nodes. The set of active nodes on the network will be periodically pulled from a pool of available nodes.
 
 ### Validator Node Pool
-In order to efficiently operate the ledger associated with the Utility, a combination of production, test, and development environments are necessary. The BoD is responsible for defining the requirements associated with the validator pool. It is important to note that such BoD decisions will be influence by both technical performance restrictions as well as budgetary demands.
+In order to efficiently operate the ledger associated with the Utility, a combination of production, test, and development environments are necessary. The BoD is responsible for defining the requirements associated with the validator pool. It is important to note that such BoD decisions will be influenced by both technical performance restrictions as well as budgetary demands.
 
 | Framework Facet | Required Quantity | Comment |
 | --- | --- | --- |
-| BoD Seats | 5 | Minimum Governing Members. BoD seats can increase but MUST not exceed 15 |
-| Minimum Production Pool Size  | 25 | Considers production and BoD factors. |
-| Minimum Test Pool Size  | 4 | Ledger used by Utility Service Provider and Technical Project contributors.  |
+| BoD Seats | 7 | Minimum Governing Members. BoD seats can increase but MUST not exceed 15 |
+| Minimum Production Pool Size  | 19 | Considers production and BoD factors. |
+| Minimum Test Pool Size  | 3| Ledger used by Utility Service Provider and Technical Project contributors.  |
 | Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Technical Project contributors.||
-| Minimum Total Pool Size | 32 | Considers requirements across all environments. |
+| Minimum Total Pool Size | 25 | Considers requirements across all environments. |
+
+### Steward Population Dynamics
+The number of Board of Director seats SHOULD be consistent as the population of Stewards (Governing and Operational Members) increases.
+
+| Board of Director Seats	| Required Stewards |	BoD%|
+| --- | --- | --- |
+|7	|25	|0.28|
+|9	|36	|0.25|
+|11	|44	|0.25|
+|13	|52	|0.25|
+|15	|60	|0.25|
+
+The BoD MUST maintain a **FIFO Waiting List** of Operational Members that have maintained consistent membership. This  list shall be used to offer new BoD seats upon availability due to attrition or growth.
 
 ## Membership Types
-
 Building on our [Glossary](./glossary.md), participants in the Consortium are referred to as *Trust Community Members*. These business entities agreed to participate in the *Trust Community* known as the Bedrock Consortium. Participation in the Consortium is possible via formal legal contracts or membership agreements.
 
 ### Annual Membership
 
 Private sector entities (businesses) can join and renew membership on an annual basis under three possible membership types:
 
-| Membership Type | Validator Node Hosting Required | Authorized Endorser Privileges (Ledger Writes) |
+| Membership Type | Validator Node Hosting Required | Governing Body Participation Required | Authorized Endorser Privileges (Ledger Writes) |
 | --- | --- | --- |
-| Governing Member | Yes | Yes - Unlimited |
-| Operational Member | Yes | Yes - Unlimited |
-| Subscriber | No | Yes - Limited |
+| Governing Member | Yes | Yes - 1 Per Governing Body |Yes - Unlimited |
+| Operational Member | Yes | Yes - 2 |Yes - Unlimited |
+| Subscriber | No | No | Yes - Limited |
 
 1. Governing Member:
     * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Utility. Minimally, this requires the member to contribute a *Validator Node* to the operation of the Ledger.
@@ -44,6 +54,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
         1. Membership is limited to the number of Board of Director seats available.
         2. A FIFO waiting list is maintained by BoD to allow for new members to fill voids left by exiting members.
         3. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
+        4. Utility Service Providers MAY NOT be a Governing Member.
     * **Benefits**:
         1. A single representative on the Board of Directors.
         2. Appointment of representatives to any Committee within the Directed Fund.
@@ -62,7 +73,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
         1. Appointment of representatives to any Committee within the Directed Fund.
         2. Approval, pending signed ```Network Agreements```, to act as a Transaction Endorser.
         3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
-        4. Members with continuous participation, can reserve a position to be invited as a Founding Steward via a FIFO waiting list.
+        4. Members with continuous participation, can reserve a position to be invited as a Governing Steward via a FIFO waiting list.
 
 3. Subscriber
     * **Description**: Members that are willing to be responsible for the endorsement of transactions to the ledger.
