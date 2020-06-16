@@ -8,14 +8,14 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development|
 | Governs | Chartering, Types and Membership, Chairpersons, Facilitators, Voting, Self-Organization, Meetings, and Meeting Pages |
-| Governed By | Bedrock Consortium Board of Directors |
+| Governed By | Bedrock Consortium Governing Board |
 
 **NOTE**:
 * See [Issue 17](https://github.com/bedrock-consortium/bbu-gf/issues/17)
 * See [Issue 20](https://github.com/bedrock-consortium/bbu-gf/issues/20)
 
 ## 1. Chartering
-1. The organizers of a new Bedrock Consortium Governing Body MUST submit a charter to the Bedrock Consortium of Directors (BoD).
+1. The organizers of a new Bedrock Consortium Governing Body MUST submit a charter to the Bedrock Consortium Governing Board.
 2. The charter MUST be based on the Bedrock Consortium Governing Body Charter Template maintained by the Secretary of the Bedrock Consortium BoD.
 3. This template MUST include:
 	1. Version number and date of approval.
@@ -34,7 +34,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 	1. Version History.
 
 4. The version history MUST include the version numbers, dates, and links to all previous versions of the charter.
-5. After the required public review period (see Bedrock Consortium Governance Framework V2 Master Document section 4.3), a new or revised charter MUST be approved by the Bedrock Consortium BoD before it becomes active.
+5. After the required public review period (see Bedrock Consortium Governance Framework V2 Master Document section 4.3), a new or revised charter MUST be approved by the Bedrock Consortium Governing Board before it becomes active.
 6. Once approved, information about the new or revised Bedrock Consortium Governing Body MUST be added to:
 
     a. The Bedrock Consortium Governing Bodies Controlled Document, including all the information required therein.
@@ -51,14 +51,14 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 
 2. All Bedrock Consortium Governing Bodies MUST:
 
-    a. Have at least one and MAY have up to three chairpersons, either appointed by the Bedrock Consortium BoD or elected by their members.
+    a. Have at least one and MAY have up to three chairpersons, either appointed by the Bedrock Consortium Governing Board or elected by their members.
 
     b. Have at least three members, including the chairperson(s).
 
     c. State any other specific membership requirements in its charter.
 
 3. A council:
-    a. MUST have at least one chairperson appointed by the Bedrock Consortium BoD who, if not already a Trustee, shall serve as an ex-officio Trustee unless an exception is made by the BoD.
+    a. MUST have at least one chairperson appointed by the Bedrock Consortium Governing Board who, if not already a Trustee, shall serve as an ex-officio Trustee unless an exception is made by the BoD.
     b. MAY limit the total number of voting members.
     c. MAY establish membership term limits.
 4. A committee:
@@ -99,7 +99,7 @@ linked from the governing body’s main meeting page.
 1. All Bedrock Consortium Governing Bodies SHOULD strive to reach decisions by consensus.
 2. Consensus MAY be achieved via discussion at a web-meeting or face-to-face meeting or via any online mechanism, such as a mailing list, that provides adequate notice to all members and enables any member to lodge an objection and request a formal vote.
 3. When a formal vote is required, it MUST be conducted using a voting process agreeable to the majority of the group, or if such an agreement cannot be reached, then under Roberts Rules of Order, Newly Revised , 11th Edition, ISBN 978-0-306-82021-2.
-4. If members feel that a decision has been reached improperly, they may appeal the decision to the Bedrock Consortium BoD who MUST serve as the final authority in all disagreements.
+4. If members feel that a decision has been reached improperly, they may appeal the decision to the Bedrock Consortium Governing Board who MUST serve as the final authority in all disagreements.
 
 ## 8. Intellectual Property Rights
 1. In keeping with the mission of the Bedrock Consortium Foundation as an open public trust organization, all contributions by participants in a Bedrock Consortium Governing Body MUST be free of intellectual property rights or other usage restrictions.
@@ -149,10 +149,10 @@ page.
 ## 11. Reporting
 1. All Bedrock Consortium Governing Bodies:
     a. SHOULD designate a member to attend and give a monthly report to the Bedrock Consortium BoD.
-    b. MUST submit a monthly summary report of activity to the Bedrock Consortium BoD via either:
-	1. An oral report given during the monthly BoD meeting with a written summary added to the BoD Meeting Page.
-	1. A written report added to or linked to the BoD Meeting Page
+    b. MUST submit a monthly summary report of activity to the Bedrock Consortium Governing Board via either:
+	1. An oral report given during the monthly Governing Board meeting with a written summary added to the Governing Board Meeting Page.
+	1. A written report added to or linked to the Governing Board Meeting Page
 
 	c. SHOULD send the same monthly report to the Steward mailing list.
 
-2. The Secretary of the Bedrock Consortium BoD MAY request oral or written reports as needed.
+2. The Secretary of the Bedrock Consortium Governing Board MAY request oral or written reports as needed.

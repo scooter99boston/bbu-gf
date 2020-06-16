@@ -13,4 +13,4 @@ To meet these requirements, the BBU operates as a *Linux Foundation Operational 
 
 This document serves as the *constitution* for the BBU and represents the official BBU Governance Framework (BBU-GF).
 
-The governing body responsible for the BBU-GF is the *Board of Directors (BoD)*.
+The governing body responsible for the BBU-GF is the *Governing Board*.

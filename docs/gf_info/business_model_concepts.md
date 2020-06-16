@@ -44,7 +44,7 @@ The governing body of a public identity utility is responsible for hiring in-hou
 The [ToIP Foundation](http://trustoverip.org) recognizes the importance of the services of Utility Service Providers and has established a dedicated *Utility Foundry Working Group* to aid governing bodies in selection and hiring of such providers. For example, access to proven *request-for-proposal* (RFP) templates. Typically, a governing body would initiate a bidding process for an annual contract with the necessary service-level-agreements (SLAs).
 
 #### BBU Perspective
-The Board of Directors of the Bedrock Business Utility with advice from the *Finance Committee* and *Technical Steering Committee* will hire personnel responsible for the operation and maintenance of the Utility.
+The Governing Board of the Bedrock Business Utility with advice from the *Finance Committee* and *Technical Steering Committee* will hire personnel responsible for the operation and maintenance of the Utility.
 
 ### Consortium Governance
 
@@ -54,7 +54,7 @@ The development and maintenance of a governance framework complete with legal in
 The [ToIP Foundation](http://trustoverip.org) recognizes the complexity of this task and has established a dedicated *Utility Foundry Working Group* to provide templates for governance frameworks along with access to experienced service providers.
 
 #### BBU Perspective
-The Board of Directors of the Bedrock Business Utility leverages the inexpensive volunteer services of its members to form a *Governance Framework Working Group* that is responsible for the task.
+The Governing Board of the Bedrock Business Utility leverages the inexpensive volunteer services of its members to form a *Governance Framework Working Group* that is responsible for the task.
 
 ## Utility Revenue
 
@@ -64,7 +64,7 @@ The Board of Directors of the Bedrock Business Utility leverages the inexpensive
 A public identity utility serves the needs of interested stakeholders by allowing for both read and write transactions. While read transactions are generally publicly accessible and free, write transactions are typically fee-based. Governing bodies can treat write transactions as an entitlement of membership and charge members for participation in the Utility.
 
 #### BBU Perspective
-The Board of Directors of the Bedrock Business Utility publishes a [fee schedule](./fee_schedule.md) for participation in the Utility. These fees are the only guaranteed source of income.
+The Governing Board of the Bedrock Business Utility publishes a [fee schedule](./fee_schedule.md) for participation in the Utility. These fees are the only guaranteed source of income.
 
 ### Community Donations
 
@@ -72,7 +72,7 @@ The Board of Directors of the Bedrock Business Utility publishes a [fee schedule
 Meeting budgetary requirements via subsidized donations is not a recommended business model. However, donations are always possible and often welcomed.
 
 #### BBU Perspective
-While the Board of Directors of the Bedrock Business Utility MAY accept donations, such income is not an assumed source of income.
+While the Governing Board of the Bedrock Business Utility MAY accept donations, such income is not an assumed source of income.
 
 ### Transaction Revenue
 

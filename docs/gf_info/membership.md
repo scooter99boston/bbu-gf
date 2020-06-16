@@ -9,12 +9,12 @@ The Utility is an instance of a [ToIP Layer One Public Utility](https://github.c
 A balance between budget requirements and technology limitations will define the number of validator nodes required to operate the Utility. Initially this will be set at twenty-five (25) utility infrastructure nodes. The set of active nodes on the network will be periodically pulled from a pool of available nodes.
 
 ### Validator Node Pool
-In order to efficiently operate the ledger associated with the Utility, a combination of production, test, and development environments are necessary. The BoD is responsible for defining the requirements associated with the validator pool. It is important to note that such BoD decisions will be influenced by both technical performance restrictions as well as budgetary demands.
+In order to efficiently operate the ledger associated with the Utility, a combination of production, test, and development environments are necessary. The Governing Board is responsible for defining the requirements associated with the validator pool. It is important to note that such Governing Board decisions will be influenced by both technical performance restrictions as well as budgetary demands.
 
 | Framework Facet | Required Quantity | Comment |
 | --- | --- | --- |
-| BoD Seats | 7 | Minimum Governing Members. BoD seats can increase but MUST not exceed 15 |
-| Minimum Production Pool Size  | 19 | Considers production and BoD factors. |
+| Governing Board Seats | 7 | Minimum Governing Members. Governing Board seats can increase but MUST not exceed 15 |
+| Minimum Production Pool Size  | 19 | Considers production and Governing Board factors. |
 | Minimum Test Pool Size  | 3| Ledger used by Utility Service Provider and Technical Project contributors.  |
 | Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Technical Project contributors.||
 | Minimum Total Pool Size | 25 | Considers requirements across all environments. |
@@ -30,7 +30,7 @@ The number of Board of Director seats SHOULD be consistent as the population of 
 |13	|52	|0.25|
 |15	|60	|0.25|
 
-The BoD MUST maintain a **FIFO Waiting List** of Operational Members that have maintained consistent membership. This  list shall be used to offer new BoD seats upon availability due to attrition or growth.
+The Governing Board MUST maintain a **FIFO Waiting List** of Operational Members that have maintained consistent membership. This  list shall be used to offer new Governing Board seats upon availability due to attrition or growth.
 
 ## Membership Types
 Building on our [Glossary](./glossary.md), participants in the Consortium are referred to as *Trust Community Members*. These business entities agreed to participate in the *Trust Community* known as the Bedrock Consortium. Participation in the Consortium is possible via formal legal contracts or membership agreements.
@@ -52,14 +52,14 @@ Private sector entities (businesses) can join and renew membership on an annual 
         2. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
     * **Restrictions**:
         1. Membership is limited to the number of Board of Director seats available.
-        2. A FIFO waiting list is maintained by BoD to allow for new members to fill voids left by exiting members.
-        3. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
+        2. A FIFO waiting list is maintained by Governing Board to allow for new members to fill voids left by exiting members.
+        3. Must sign the required ```Utility Agreements``` as set forth in the Participation Agreement.
         4. Utility Service Providers MAY NOT be a Governing Member.
         5. Utility Service Providers MAY NOT participate in the Finance Committee.
     * **Benefits**:
         1. A single representative on the Board of Directors.
         2. Appointment of representatives to any Committee within the Directed Fund.
-        3. Approval, pending signed ```Network Agreements```, to act as a Transaction Endorser.
+        3. Approval, pending signed ```Utility Agreements```, to act as a Transaction Endorser.
         4. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
 
 2. Operational Member
@@ -68,11 +68,11 @@ Private sector entities (businesses) can join and renew membership on an annual 
         1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in ```Exhibit C``` of the Participation Agreement.
         2. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
     * **Restrictions**:
-        1. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
-        2. Membership is limited to the number of nodes required to maintain optimal consensus performance. The optimal limit here must take into consideration a balance with decentralization requirements. The BoD will annually determine the number of nodes required to meet both consensus, decentralization, and budgetary requirements.
+        1. Must sign the required ```Utility Agreements``` as set forth in the Participation Agreement.
+        2. Membership is limited to the number of nodes required to maintain optimal consensus performance. The optimal limit here must take into consideration a balance with decentralization requirements. The Governing Board will annually determine the number of nodes required to meet both consensus, decentralization, and budgetary requirements.
     * **Benefits**:
         1. Appointment of representatives to any Committee within the Directed Fund.
-        2. Approval, pending signed ```Network Agreements```, to act as a Transaction Endorser.
+        2. Approval, pending signed ```Utility Agreements```, to act as a Transaction Endorser.
         3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
         4. Members with continuous participation, can reserve a position to be invited as a Governing Steward via a FIFO waiting list.
 
@@ -81,10 +81,10 @@ Private sector entities (businesses) can join and renew membership on an annual 
     * **Ledger Roles**:
         1. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
     * **Restrictions**:
-        1. Must sign the required ```Network Agreements``` as set forth in the Participation Agreement.
+        1. Must sign the required ```Utility Agreements``` as set forth in the Participation Agreement.
     * **Benefits**:
         1. Appointment of representatives to any Committee within the Directed Fund.
-        2. Approval, pending signed ```Network Agreements```, to act as a Transaction Endorser.
+        2. Approval, pending signed ```Utility Agreements```, to act as a Transaction Endorser.
         3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
 
 ### Non-Membership Roles
@@ -95,9 +95,9 @@ Private sector entities (businesses) can join and renew membership on an annual 
         1. *Transaction Author*: Interacts with a *Transaction Endorser* for the processing of write requests.
     * **Restrictions**:
         1. Only the transaction types outlined in the Utilities [ledger access policies](../gf_controlled/ledger_access_policies.md) and [ledger data policies](../gf_controlled/ledger_data_policies.md) are permitted.
-        2. MUST sign the ```Network Agreements``` as defined in the Participation Agreement.
+        2. MUST sign the ```Utility Agreements``` as defined in the Participation Agreement.
     * **Benefits**:
         1. Ability to use ledger for decentralized identity interactions.  
 
-2. Associate
+2. Contributors to the Technical Project
     * **Description**: A category of membership that is limited to Associate Members of the Linux Foundation. This membership category is limited to participation in Committees within the Technical Project.

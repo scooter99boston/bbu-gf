@@ -7,20 +7,20 @@ This term sheet provides a non-binding informational synopsis for the operation 
 A balance between budget requirements and technology limitations will define the number of validator nodes required to operate the Bedrock Business Utility ("BBU"). Initially this will be set at 25. The set of active nodes on the network will be periodically pulled from a pool of available nodes.
 
 ## Validator Node Pool
-In order to efficiently operate the Ledger associated with the BBU, a combination of production and test nodes are necessary. The BoD is responsible for defining the requirements associated with the validator pool. It is important to note that such BoD decisions will be influence by both technical performance restrictions as well as budgetary demands.
+In order to efficiently operate the Ledger associated with the BBU, a combination of production and test nodes are necessary. The Governing Board is responsible for defining the requirements associated with the validator pool. It is important to note that such Governing Board decisions will be influence by both technical performance restrictions as well as budgetary demands.
 
 | Framework Facet | Required Quantity | Comment |
 | --- | --- | --- |
-| BoD Seats | 9 | Minimum Founding Stewards. BoD can increase but MUST not exceed 15 |
-| Minimum Production Pool Size  | 25 | Considers production and BoD factors. Each Steward must contribute a Test Node. |
+| Governing Board Seats | 9 | Minimum Founding Stewards. Governing Board can increase but MUST not exceed 15 |
+| Minimum Production Pool Size  | 25 | Considers production and Governing Board factors. Each Steward must contribute a Test Node. |
 | Minimum Stewards | 16 | |
 | Minimum Test Pool Size  | 9 | Each Steward must contribute a Test Node.  |
 
 ## Board of Directors (BoD)
-Founding Members will have the right to appoint a board director. Each Founding Member will be allocated one vote for each appointed Director.  The BoD will establish a charter that will establish Officer roles and responsibilities. The BoD will establish terms for Officers, but no term shall exceed 3 years.
+Founding Members will have the right to appoint a board director. Each Founding Member will be allocated one vote for each appointed Director.  The Governing Board will establish a charter that will establish Officer roles and responsibilities. The Governing Board will establish terms for Officers, but no term shall exceed 3 years.
 
 ## Budget
-BoD is responsible for defining and approving the Network budget. Income for the budget will be derived from membership dues. The budget will be limited to expenses for the administration, operation, and maintenance of the Network.
+Governing Board is responsible for defining and approving the Network budget. Income for the budget will be derived from membership dues. The budget will be limited to expenses for the administration, operation, and maintenance of the Network.
 
 Minimum Annual Operational Budget: $TBD
 
@@ -52,12 +52,12 @@ Minimum Annual Operational Budget: $TBD
 3. Host Network approved Transaction Endorser code.
 
 ## Governance Framework
-BoD is responsible for the refinement and evolution of an acceptable set of control and legal documents for the Network.
+Governing Board is responsible for the refinement and evolution of an acceptable set of control and legal documents for the Network.
 
 ## Management
-The BoD will be required to manage a budget and hire resources to coordinate the management of the Network. An initial candidate for such Services SHALL be the  Sovrin Foundation as an *Identity Utility Administrator*.
+The Governing Board will be required to manage a budget and hire resources to coordinate the management of the Network. An initial candidate for such Services SHALL be the  Sovrin Foundation as an *Identity Utility Administrator*.
 
-The BoD will hire a Network Manager who will report to the BoD and will be responsible for activities such as:
+The Governing Board will hire a Network Manager who will report to the Governing Board and will be responsible for activities such as:
 
 1.	Financial Accounting
 2.	Legal
@@ -65,9 +65,9 @@ The BoD will hire a Network Manager who will report to the BoD and will be respo
 4.	Administrative
 5.	Membership Management
 
-The BoD will appoint a representative of the Network to serve on the Sovrin Foundation Board of Trustees.
+The Governing Board will appoint a representative of the Network to serve on the Sovrin Foundation Board of Trustees.
 
-The BoD will appoint a Network Architect who will be responsible for interfacing with the Sovrin Foundation for activities such as:
+The Governing Board will appoint a Network Architect who will be responsible for interfacing with the Sovrin Foundation for activities such as:
 
 1.	Technical Strategy & Architecture
 2.	Build and Test

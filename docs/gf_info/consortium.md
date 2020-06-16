@@ -26,13 +26,13 @@ Participation in or use of a project entity may require the signing of one or mo
 
 | Entity Type | Entity Name | Contractual Instruments |
 | --- | --- | --- |
-| Directed Fund | Bedrock Business Utility Directed Fund | LF Membership Agreement, BBU Participation Agreement, and Network Agreements. |
-| Utility | Bedrock Business Utility | Network Agreements |
+| Directed Fund | Bedrock Business Utility Directed Fund | LF Membership Agreement, BBU Participation Agreement, and Utility Agreements. |
+| Utility | Bedrock Business Utility | Utility Agreements |
 | Technical Project | Bedrock Consortium Project | None |
 
-The BBU Participation Agreement binds members to project funding commitments, policies, etc. It also puts forth a project charter that addresses the governance of directed fund and customized requirements for *Network Agreements*.
+The BBU Participation Agreement binds members to project funding commitments, policies, etc. It also puts forth a project charter that addresses the governance of directed fund and customized requirements for *Utility Agreements*.
 
-For details pertaining to *Network Agreements*, see "Exhibit B" of the Bedrock Business Utility Fund Charter as articulated in the [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
+For details pertaining to *Utility Agreements*, see "Exhibit B" of the Bedrock Business Utility Fund Charter as articulated in the [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
 
 The *Bedrock Consortium Project* does not require the signing of a *Contributors License Agreement (CLA)*.
 
@@ -44,8 +44,8 @@ The term “Bedrock” carries two pertinent meanings:
 1. Gold accumulates at this solid foundational layer of the earth because water can't "wash it down" any further. The implication here is that our public identity utility ledger is the bedrock for business trust worldwide.
 2. A “bedrock” principle is one that forms the basis for others principles. Our public identity utility ledger aims to provide the foundational principles for the exchange of trusted personal data.
 
-## Board of Directors
-The Consortium will appoint a Board of Directors ("BoD") as the governing body of the Directed Fund. The BoD will be comprised of representatives from membership as outlined in "Exhibit B" of the Bedrock Business Utility Fund Charter. See [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
+## Governing Board
+The Consortium will appoint a Governing Board as the governing body of the Directed Fund. The Governing Board will be comprised of representatives from membership as outlined in "Exhibit B" of the Bedrock Business Utility Fund Charter. See [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
 
 ## Bylaws
-The BoD is responsible for establishing and maintaining the governance framework for the operation and administration of the *Bedrock Business Utility ("BBU")* along with the bylaws for the Consortium. See [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).
+The Governing Board is responsible for establishing and maintaining the governance framework for the operation and administration of the *Bedrock Business Utility ("BBU")* along with the bylaws for the Consortium. See [BBU Partnership Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx).

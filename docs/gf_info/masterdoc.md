@@ -4,12 +4,12 @@ This is an official document of the ​Bedrock Business Utility Governance Frame
 ## Version Control
 
 * **Version**: 0.2
-* **BoD Approval Date**: TBD
-* **Comments**: Ratification of the BBU-GF will take place upon the formation of the BoD (at first meeting).
+* **Governing Board Approval Date**: TBD
+* **Comments**: Ratification of the BBU-GF will take place upon the formation of the Governing Board (at first meeting).
 * **Status**: BBU Governance Framework Working Group is currently developing the BBU-GF.
 
 ## Acknowledgements
-​This document was produced on behalf of the BBU Board of Directors by the BBU Governance Framework Working Group.
+​This document was produced on behalf of the BBU Governing Board by the BBU Governance Framework Working Group.
 
 ## Introduction
 The purpose of the Bedrock Business Utility is to provide a decentralized global public utility for trusted commerce.
@@ -66,7 +66,7 @@ In keeping with the Inclusive by Design principles but in recognition of the per
 
 1. Read access to the Bedrock Business Utility MUST be open to all types of entities.  
 2. Write access will be limited to members and non-members in good standing within the Consortium.
-3. Write access will be limited to members and non-members that have signed the necessary ```Network Agreements```. See ```Exibit B``` of the Participation Agreement.
+3. Write access will be limited to members and non-members that have signed the necessary ```Utility Agreements```. See ```Exibit B``` of the Participation Agreement.
 
 ### Trust Assurance
 In keeping with all Core Principles and especially the Decentralization by Design principles:
@@ -104,22 +104,22 @@ All BBU-GF documents will reside in a [Github source control repository](https:/
 These policies apply to any normative revision to the present document, exclusive of ```Appendix A```.
 1. Revisions to the BBU-GF Master Document MUST respect the Purpose and Core Principles.
 2. The commencement of any revision process MUST be publicly announced by the Consortium no later than the time of commencement.
-3. Decisions in the revision process is restricted to the Board of Directors and SHOULD consider input from all BBU members.
+3. Decisions in the revision process is restricted to the Governing Board and SHOULD consider input from all BBU members.
 4. Proposed revisions MUST be publicly announced by the Consortium.
-5. Revisions MUST be approved by a supermajority vote of at least two-thirds of the Board of Directors and before the revision takes effect.
+5. Revisions MUST be approved by a supermajority vote of at least two-thirds of the Governing Board and before the revision takes effect.
 
 ### Controlled Document Revisions
 These policies apply to any normative revision to the Controlled Documents listed in ```Appendix A```.
 1. The list of Controlled Documents in Appendix A, as well as each Controlled Document on that list, MAY be revised independently from the BBU-GF Master Document (the present document).
 2. A Controlled Document MUST be stored in and use the source control mechanisms established in this ```Governance Section```.
-4. Revisions to a Controlled Document MUST be approved by the Board of Directors before the revision takes effect.
+4. Revisions to a Controlled Document MUST be approved by the Governing Board before the revision takes effect.
 
 ## Appendix A: Controlled Documents
 The following Controlled Documents are normative components of the BBU-GF. All framework content is published by the Consortium in three forms:
 
 1. A static PDF document representing the entire governance framework in a single document.
     * [Latest compilation of material from the GitHub Repo](../../pdf/bedrock-business-utility-gf.pdf)
-    * [Official Board of Directors Approved Version](../../pdf/approved/bedrock-business-utility-gf-v1.pdf)
+    * [Official Governing Board Approved Version](../../pdf/approved/bedrock-business-utility-gf-v1.pdf)
 2. A sub-section of the [BBU website](https://bedrock-consortium.github.io/bbu-gf/) so that all documentation is easily navigated.  
 3. Independent markdown files (```.md```) in the [GitHub Repo](https://github.com/bedrock-consortium/bbu-gf).
 
@@ -128,7 +128,7 @@ The following Controlled Documents are normative components of the BBU-GF. All f
 | Document Name | Description | Governed By |
 | --- | --- | --- |
 | BBU Glossary | Definitions of all terms used in the BGF | Governance Framework Working Group |
-| Governing Bodies | Definitions of governing bodies within the Consortium | Bedrock Board of Directors |
+| Governing Bodies | Definitions of governing bodies within the Consortium | Bedrock Governing Board |
 | Ledger Transaction Data|  Defines the data and metadata process by a Steward Node | Technical Steering Committee |
 
 ### Specifications
@@ -143,7 +143,7 @@ The following Controlled Documents are normative components of the BBU-GF. All f
 
 | Document Name | Description | Governed By |
 | --- | --- | --- |
-| Governing Body Policies | Chartering and functioning of BBU Governing Bodies | Board of Directors |
+| Governing Body Policies | Chartering and functioning of BBU Governing Bodies | Governing Board |
 | Ledger Access Policies | Read and write access to the Bedrock Business Utility | Governance Framework Working Group |
 |  Member Business Policies | Member qualification, enrollment, and operational status | Membership Committee |
 | Membership Technical Policies | Technical requirements for operating and protecting components of the BBU infrastructure. | Technical Steering Committee|

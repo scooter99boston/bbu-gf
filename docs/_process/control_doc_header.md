@@ -1,5 +1,5 @@
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Bedrock Consortium Board of Directors.
+This is a Controlled Document of the Bedrock Governance Framework was approved by the Bedrock Consortium Governing Board.
 
 | Document Name | |
 | --- | --- |
@@ -7,4 +7,4 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | |
-| Governed By | Bedrock Consortium Board of Directors |
+| Governed By | Bedrock Consortium Governing Board |

@@ -9,7 +9,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | Governance bodies within the Bedrock Consortium|
-| Governed By | Bedrock Consortium Board of Directors |
+| Governed By | Bedrock Consortium Governing Board |
 
 This document lists all official governing bodies of the Bedrock Consortium Foundation as determined by the Bedrock Consortium Board of Directors.
 
@@ -20,10 +20,10 @@ This document lists all official governing bodies of the Bedrock Consortium Foun
 1. All Bedrock Consortium Governing Bodies operate under the Bedrock Consortium Governing Body Policies.
 2. By default, all Governing Bodies will leverage the Wiki assigned by the [Linux Foundation Groups Collaboration Tool](https://groups.linuxfoundation.org/). See [Issue 18](https://github.com/bedrock-consortium/bbu-gf/issues/18)
 3. For access to the current membership roster, meeting information, agenda, and the minutes of any Bedrock Consortium Governing Body, follow the link to its meeting page.
-4. Unless otherwise noted, membership in any governing body is limited to BBU members in good standing. 
+4. Unless otherwise noted, membership in any governing body is limited to BBU members in good standing.
 
-## Board of Directors
-The Bedrock Consortium Board of Directors (BoD) is the overall governing body of the Bedrock Consortium Foundation. It is chartered by the Bedrock Business Utility Fund as stated in the Participation Agreement. The BoD is composed of ```Governing Members``` who have the obligation to represent the interests of the Identity Owners of the Bedrock Consortium Community. It has sole authority for:
+## Governing Board
+The Bedrock Consortium Governing Board is the overall governing body of the Bedrock Consortium Foundation. It is chartered by the Bedrock Business Utility Fund as stated in the Participation Agreement. The Governing Board is composed of ```Governing Members``` who have the obligation to represent the interests of the Identity Owners of the Bedrock Consortium Community. It has sole authority for:
 
 1. Approving the charters of all Bedrock Consortium Governing Bodies.
 2. Approving at least one chairperson of each Bedrock Consortium Governing Body.
@@ -40,7 +40,8 @@ The Technical Steering Committee is responsible for the technical design, archit
 * **Charter Location**: [Technical Steering Committee Charter]()
 * **Meeting Page Location**: [Technical Steering Committee Meeting Page]()
 
-## Committees
+## Governing Board Subgroups
+Excluding the TSC, all Committees and Working Groups are governed by and fall under the the Governing Board. 
 
 ### Membership Committee
 The Chair of this committee MUST be a representative of the Steward community.
@@ -69,15 +70,14 @@ The Finance Committee has the following responsibilities:
 * **Charter Location**: [Finance Committee Charter]()
 * **Meeting Page Location**: [Finance Committee Meeting Page]()
 
-### Audit Committee
-The Audit Committee is responsible for assisting the BoD in fulfilling its governance responsibilities by providing oversight of the Bedrock Consortium Foundation’s financial reporting, internal control systems, risk management systems, and internal and external audit functions. Members of this committee are appointed by the BoD. Members of the Finance Committee SHOULD NOT be members of this committee.
+### MarComm Committee
+The Marketing and Communications ("MarComm") Committee is responsible for assisting the Governing Board in fulfilling marketing and external communication activities.
 
 * **Charter Version**: xx
 * **Charter Approval Date**: 2020-xx-xx
-* **Charter Location**: [Audit Committee Charter]()
-* **Meeting Page Location**: [Audit Committee Meeting Page]()
+* **Charter Location**: [MarComm Committee Charter]()
+* **Meeting Page Location**: [MarComm Committee Meeting Page]()
 
-## Working Groups
 ### Governance Framework Working Group
 The Bedrock Governance Framework Working Group (BGFWG) is responsible for development and revision of the BBU-GF. The Chair of this working group MUST be a representative of the Steward community.
 

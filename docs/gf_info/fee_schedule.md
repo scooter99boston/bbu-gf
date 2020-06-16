@@ -9,10 +9,9 @@ The membership levels and associated fees are listed below.
 
 | Membership Class | Annual Membership Fees	| Node Hosting Requirement	| Write Transaction Entitlements|
 | --- | --- | --- | --- |
-| Governing Member | TBD	| 2	| Unlimited |
+| Governing Member | TBD	| 1	| Unlimited |
 | Operational Member | TBD |	1	| Unlimited |
 | Subscriber | TBD	| 0 |	50 |
-|	Associate Member | $0 | 0 | 0 |
 
 ## Subscription Packages
 Subscriber membership comes with a preset level of  transaction entitlements per annual membership. Additional transactions can be acquired per annum according to the following table. While a Subscriber may purchase an unlimited number of entitlement packages, all unused transactions expire at years end without rollover./

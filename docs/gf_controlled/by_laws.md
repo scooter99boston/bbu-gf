@@ -1,8 +1,10 @@
 # Bedrock Consortium Bylaws
 >Bedrock CONSORTIUM AMENDED AND RESTATED BYLAWS -- NEED LEGAL INSIGHT
 
+> [Issue 32](https://github.com/bedrock-consortium/bbu-gf/issues/32)
+
 ## ARTICLE I. NAME OF CORPORATION
-The name of the corporation is Bedrock Consortium(“Corporation”).
+The name of the corporation is Bedrock Consortium (“Corporation”).
 
 ## ARTICLE II. CORPORATE PURPOSE
 The general and specific purposes of the Corporation are set forth in the Articles of

@@ -14,7 +14,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 See [Issue 21](https://github.com/bedrock-consortium/bbu-gf/issues/21) for review.
 
 ### General
-Prospective members MUST apply to the Board of Directors and receive approval to be a Member of the Bedrock Consortium. See ```Application ``` process herein.
+Prospective members MUST apply to the Governing Board and receive approval to be a Member of the Bedrock Consortium. See ```Application ``` process herein.
 
 ### Stewards
 Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
@@ -59,15 +59,14 @@ The committee MUST:
 5. Notify applicants of application approval/rejection status.
 
 ### Governing Body
-The Board of Directors MUST:
+The Governing Board MUST:
 
 1. Take action on applications within 30 days of receipt.
 
 ## 3. Activation
 
 ### Stewards
-A Steward SHOULD submit a utility infrastructure node to the Idenity Utility Administrator using the procedures outlined by the
-Technical Steering Committee after the following dependencies have been resolved:
+A Steward SHOULD submit a utility infrastructure node to the Identity Utility Administrator using the procedures outlined by the Technical Steering Committee after the following dependencies have been resolved:
 
 1. Have their application approved by the responsible Bedrock Consortium Governing Body.
 1. Complete the onboarding process with the Linux Foundation including the signature of all pertinent contractual instruments.
@@ -99,7 +98,7 @@ After a Member has qualified to have an active Validator Node, the Member MUST d
 	1. It suffers a data breach or other public event which may reasonably call into question its ability to comply with the Governance Framework.
 
 3. In the case of any of the changes listed in #2 above, the responsible Bedrock Consortium Governing Body MAY require the Member to requalify.
-4. The Bedrock Consortiumn MUST provide Members with at least 30 days notification of any material changes to the business policies implemented in Bedrock Consortium Network environments. Notification about technical changes is covered under Bedrock Consortium Member Technical and Organizational Policies .
+4. The Bedrock Consortium MUST provide Members with at least 30 days notification of any material changes to the business policies implemented in Bedrock Consortium Network environments. Notification about technical changes is covered under Bedrock Consortium Member Technical and Organizational Policies .
 
 ## 6. Suspension
 1. A Member MUST be suspended by the responsible Bedrock Consortium Governing Body under any of the following conditions:
@@ -111,7 +110,7 @@ After a Member has qualified to have an active Validator Node, the Member MUST d
 	1. The Member has, in the sole judgment of the Bedrock Consortium Board of Directors, violated some or all of the Governance Framework principles, taken action against the purpose of the Bedrock Consortium, or has shown behavior contrary to the collective interest of the Bedrock Consortium or performed action that brought the Bedrock Consortium or the Consortium into disrepute.
 
 2. A Member who is suspended MUST not have an active Node on any Bedrock Consortium Ledger network until such time as Member is able to provide reasonable assurance to the responsible Bedrock Consortium Governing Body that:
-\
+
 	1. The Member is back in compliance with all requirements of the Bedrock Consortium Governance Framework, and
 	1. The Member has the ability to maintain compliance for the foreseeable future.
 
@@ -122,7 +121,7 @@ After a Member has qualified to have an active Validator Node, the Member MUST d
 	1. Terminate the Member.
 
 ## 7. Termination
-1. A Member who has breached the terms of the Participant Agreement and/or associated Network Agreements MAY be
+1. A Member who has breached the terms of the Participant Agreement and/or associated Utility Agreements MAY be
 terminated by a majority vote of the responsible Bedrock Consortium Governing Body with ratification by the Board of Directors.
 2. A Member who has been suspended and not been reactivated within 180 days following suspension MUST be notified of automatic termination.
 3. An Organization who has been previously terminated as a Member and who applies to be reinstated MUST disclose the previous termination in their application and explain the remediation steps that the Member has taken to requalify.
