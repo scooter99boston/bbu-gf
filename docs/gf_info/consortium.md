@@ -7,11 +7,11 @@ The [Linux Foundation](https://www.linuxfoundation.org/) (the “LF”) is dedic
 
 ![lf_legal_entity_structure](../img/lf_legal_entity_structure.png)
 
-| Entity | Purpose |
-| --- | --- |
-| The Linux Foundation, (Oregon Mutual Benefit Corporation, 501(c)6) | Legal membership entity for Directed Funds |
-| LF Operational Projects LLC (Delaware LLC) | Legal entity for managing non-member use of a transactional entity. |
-| LF Network Projects LLC, (Delaware Series LLC) | Holds trademark assets for series entities (open source technical projects). |
+| Project | Entity | Purpose |
+| --- | --- | --- |
+| Bedrock Consortium | The Linux Foundation, (Oregon Mutual Benefit Corporation, 501(c)6) | Legal membership entity for Directed Funds |
+| Bedrock Business Utility | LF Governance Networks Inc, LLC (Delaware Non-Profit Corp) | Legal entity for managing non-member use of a transactional entity. |
+| Bedrock Technical Project | LF Network Projects LLC, (Delaware Series LLC) | Holds trademark assets for series entities (open source technical projects). |
 
 ### Legal Entity Registration
 The *Bedrock Business Utility Fund* (the “Directed Fund”), is a directed fund project of the LF. The Directed Fund serves two purposes:
@@ -26,9 +26,9 @@ Participation in or use of a project entity may require the signing of one or mo
 
 | Entity Type | Entity Name | Contractual Instruments |
 | --- | --- | --- |
-| Directed Fund | Bedrock Business Utility Directed Fund | LF Membership Agreement, BBU Participation Agreement, and Utility Agreements. |
-| Utility | Bedrock Business Utility | Utility Agreements |
-| Technical Project | Bedrock Consortium Project | None |
+| Directed Fund | Bedrock Consortium Directed Fund | LF Membership Agreement, BBU Participation Agreement, and Utility Agreements. |
+| Utility Project | Bedrock Business Utility | Utility Agreements |
+| Technical Project | Bedrock Technical Project | None |
 
 The BBU Participation Agreement binds members to project funding commitments, policies, etc. It also puts forth a project charter that addresses the governance of directed fund and customized requirements for *Utility Agreements*.
 

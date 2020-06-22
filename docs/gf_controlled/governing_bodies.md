@@ -41,7 +41,7 @@ The Technical Steering Committee is responsible for the technical design, archit
 * **Meeting Page Location**: [Technical Steering Committee Meeting Page]()
 
 ## Governing Board Subgroups
-Excluding the TSC, all Committees and Working Groups are governed by and fall under the the Governing Board. 
+Excluding the TSC, all Committees and Working Groups are governed by and fall under the the Governing Board.
 
 ### Membership Committee
 The Chair of this committee MUST be a representative of the Steward community.
@@ -70,13 +70,14 @@ The Finance Committee has the following responsibilities:
 * **Charter Location**: [Finance Committee Charter]()
 * **Meeting Page Location**: [Finance Committee Meeting Page]()
 
-### MarComm Committee
-The Marketing and Communications ("MarComm") Committee is responsible for assisting the Governing Board in fulfilling marketing and external communication activities.
+### Marcom Committee
+The Marketing and Communications ("Marcom") Committee is responsible for assisting the Governing Board in fulfilling marketing and external communication activities.
+Marcom is targeted interactions with members and prospects using a variety of communication mechanism.
 
 * **Charter Version**: xx
 * **Charter Approval Date**: 2020-xx-xx
-* **Charter Location**: [MarComm Committee Charter]()
-* **Meeting Page Location**: [MarComm Committee Meeting Page]()
+* **Charter Location**: [Marcom Committee Charter]()
+* **Meeting Page Location**: [Marcom Committee Meeting Page]()
 
 ### Governance Framework Working Group
 The Bedrock Governance Framework Working Group (BGFWG) is responsible for development and revision of the BBU-GF. The Chair of this working group MUST be a representative of the Steward community.

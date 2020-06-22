@@ -28,6 +28,7 @@ nav:
         - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'
     - Legal:
         - 'Architecture': 'gf_legal/legal_arch.md'
+        - 'Services': 'gf_legal/legal_services.md'
         - 'Member Agreements': 'gf_legal/member_agreements.md'
         - 'Non-Member Agreements': 'gf_legal/non_member_agreements.md'
 - Compliance:
