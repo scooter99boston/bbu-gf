@@ -16,7 +16,7 @@ A general term for an organization that is responsible for providing and maintai
 A computer network server running an instance of the code necessary to operate a distributed ledger or blockchain. In the Bedrock Consortium, a Node is operated by a Steward running an instance of the Bedrock Open Source Code to maintain the Bedrock Business Utility ( or DID Ledger). A Node must be either a Validator Node or an Observer Node.
 
 ### Bedrock Open Source Code
-The computer software that is installed on all Nodes associated with the Bedrock Business Utility (BBU). This code determined by the Bedrock Board of Directors. The BBU adheres to code selection and version guidance provided by the Technical Steering Committee ("TSC") of the Bedrock Consortium Project. The TSC collaborates within the Hyperledger Indy Project of the Linux Foundation to establish a TSC approved version of Hyperledger Indy within the the Bedrock Code Repository managed by the TSC.
+The computer software that is installed on all Nodes associated with the Bedrock Business Utility (BBU). This code determined by the Bedrock Board of Directors. The BBU adheres to code selection and version guidance provided by the Technical Steering Committee ("TSC") of the Bedrock Technical Project. The TSC collaborates within the Hyperledger Indy Project of the Linux Foundation to establish a TSC approved version of Hyperledger Indy within the the Bedrock Code Repository managed by the TSC.
 
 ### Bedrock Ledger Environments
 The corpus of DID Ledgers used by the Bedrock Consortium to operate the Bedrock Business Utility. For example: ```prod```, ```test```, and ```dev```.

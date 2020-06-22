@@ -6,7 +6,7 @@ The Bedrock Business Utility (the "Utility") is governed by the Bedrock Consorti
 The Utility is legally represented as three (3) distinct but related legal entities which are associated with a collection of contractual instruments. The *Bedrock Business Utility  Fund* (the “Directed Fund”), is a directed fund project of The Linux Foundation (the "LF").  The Directed Fund serves two purposes:
 
 1. Manage the operation and maintenance of the Bedrock Business Utility (“the Utility”), a LF Operational Project (a Delaware series limited liability company)
-2. Support for the Bedrock Consortium Project, (the “Technical Project”), an open source project, a LF Network Project.
+2. Support for the Bedrock Technical Project, (the “Technical Project”), an open source project, a LF Network Project.
 
 It is expected that the Utility will be used primarily by businesses who have a need to exchange trusted data such as digital credentials. The credentials themselves are never written to the Utility so issuers of these credentials ( *Transaction Authors*) have no need to write data to the Utility. This approach avoids issuers increasing risks associated with personal data under data protection regulations such as the EU General Data Protection Regulation (GDPR), the Canadian Personal Information Protection and Electronic Documents Act (PIPEDA), or the California Consumer Privacy Act (CCPA).
 

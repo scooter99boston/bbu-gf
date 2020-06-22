@@ -20,7 +20,7 @@ The terms used in this Controlled Document are more fully explained in the [Glos
 
 One topic pertinent to ledger access is the concept of a [Tombstone](https://jira.hyperledger.org/browse/INDY-2082). A Steward MAY, for regulatory or individual business requirements, determine that it needs to forbid access to a ledger entry and therefore require the ability to mark the subject entry as "deleted". While the Bedrock Consortium has taken action to minimize such risk by prohibiting public write access, a *Tombstone* provides an added protection mechanism that will help mitigate risk for Stewards who are contractually obligated to carry out read and write transactions.
 
-**The Utility will allow for Tombstones once this feature is implemented in Hyperledger Indy**. The Bedrock Consortium will collaborate with the Hyperledger Indy Community and the [Bedrock Consortium Project](https://github.com/bedrock-consortium/tsc/) (the "Technical Project") to allow a Steward to:
+**The Utility will allow for Tombstones once this feature is implemented in Hyperledger Indy**. The Bedrock Consortium will collaborate with the Hyperledger Indy Community and the [Bedrock Technical Project](https://github.com/bedrock-consortium/tsc/) (the "Technical Project") to allow a Steward to:
 
 1. Mark a Transaction as "deleted" thereby suggesting it should no longer be returned in response to requests for read access.
 2. Declare a Transaction as "deleted" under one of two categories: *Node-Specific Tombstone* or a *Ledger-Wide Tombstone*.
