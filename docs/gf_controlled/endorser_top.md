@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | General Security Policies, Node Technical Policies, General Security Policies, Node Security Policies, Operating Policies, Node Selection Algorithm, Permissioned Test Network Policies, Reporting Policies |
-| Governed By | Bedrock Governance Framework Work Group, [Sovrin Technical Steering Committee](https://sovrin.org/wp-content/uploads/Sovrin-Technical-Governance-Board-Charter-V4.pdf) |
+| Governed By | Bedrock Governance Framework Work Group, Bedrock Technical Steering Committee |
 
 
 ## 1. General Security Policies

@@ -77,7 +77,7 @@ Tombstones do not modify data on the ledger. Instead they impact the behavior of
 1. Stewards MUST provide public read access without cost for all Transactions on the Utility unless marked by a Tombstone.
 1. Once Tombstone functionality has been:
 	3. implemented by the underlying ledger technology,
-	4. approved by the Sovrin Technical Steering Committee, and
+	4. approved by the Bedrock Technical Steering Committee, and
 	5. approved by the Bedrock Consortium Board of Directors, a Steward MAY mark a Transaction as a Node-Specific Tombstone if:
 		1. Requested by the Transaction Author of a Transaction for a valid reason as specified by the Transaction Author Agreement.
 		1. Required of the Steward by a court order.

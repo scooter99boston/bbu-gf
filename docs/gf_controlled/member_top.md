@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | General Security Policies, Node Technical Policies, General Security Policies, Node Security Policies, Operating Policies, Node Selection Algorithm, Permissioned Test Network Policies, Reporting Policies |
-| Governed By | Bedrock Governance Framework Work Group, [Sovrin Technical Steering Committee](https://sovrin.org/wp-content/uploads/Sovrin-Technical-Governance-Board-Charter-V4.pdf) |
+| Governed By | Bedrock Governance Framework Work Group, Bedrock Technical Steering Committee |
 
 ## 1. Ledger Software Policies
 
@@ -52,7 +52,7 @@ For all ledgers within the Utility environments list, the following requirements
 1. MUST run on robust server-class hardware.
 2. If a Node is run on a VM, the Member:
 
-	1.  MUST run on a mainstream hypervisor that receives timely patches from its vendor or community.
+	1. MUST run on a mainstream hypervisor that receives timely patches from its vendor or community.
 	2. SHOULD apply hypervisor patches on a regular basis.
 
 3. The Node MUST run in an OS that is dedicated to the validator, i.e., a single-purpose (physical or virtual) machine that MUST run Bedrock Open Source Code, MAY run other software approved by the TSC, and MUST NOT run any other software. Software required to support the node, such as monitoring, backup, and configuration management software, are approved as a general category. However, Members should discuss with the TSC any software packages that transmit between the Member Node and the outside.
@@ -109,7 +109,7 @@ A Member:
 	1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability. See *Diversity Goals* below.
 	1. The Security by Design principles, in particular the principles of System Diversity and Secure Failure. See *Diversity Goals* below.
 
-4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Sovrin Foundation Code Repository and made visible to all Members via a web page on the Bedrock Consortium website.
+4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Bedrock Foundation Code Repository and made visible to all Members via a web page on the Bedrock Consortium website.
 
 ## 8. Reporting Policies
 1. A Member MUST report to the responsible Bedrock Consortium Governing Body any substantive change to the configuration or location of a Node within five (5) business days of the change.

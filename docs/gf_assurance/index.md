@@ -118,14 +118,14 @@ Trust assertions are empty without evidence to support it. The following are exa
 For the BBU Governance Framework, see the Trust Assurance Matrix (Addendum) for the specific Trust Evidence used in this version of the BBU Trust AssuranceFramework.
 
 ### Trust Actors
-The following is the set of Sovrin Entities who play a role in the Sovrin Governance Framework in assessing and opining on Trust Assertions in the Sovrin Network.
+The following is the set of BBU Entities who play a role in the Bedrock Consortium Governance Framework in assessing and opining on Trust Assertions associated with the BBU.
 
-1. Bedrock Governing Board. Issues the Policies within the Sovrin Governance Framework and has the right to approve and suspend Stewards from the Sovrin Network. It has the right to perform Self-Certification to evoke assurance from Relying
+1. Governing Board. Issues the Policies within the Bedrock Consortium Governance Framework and has the right to approve and suspend Stewards from the BBU. It has the right to perform Self-Certification to evoke assurance from Relying
 Parties.
 
 2. Stewards. Agree to the Steward Agreement and perform Self-Certification of compliance with the Steward Business Policies and Steward Technical Policies.
 
-3. Legal Authorities. Enforce laws in the Jurisdictions of the Bedrock Consortium and Stewards and mediates the Sovrin Steward Agreement if challenged.
+3. Legal Authorities. Enforce laws in the Jurisdictions of the Bedrock Consortium, its Stewards and mediates the Utility Agreements if challenged.
 
 ### Trust Mechanisms
 The following are actions that the Bedrock Consortium takes to assert and assure trust:
@@ -146,6 +146,6 @@ For the BBU Governance Framework:
 2. The Bedrock Governing Board requires members to sign the contractual instruments and perform Self-Certification that the member is compliant with the [Bedrock Member Business Policies](../gf_controlled/member_business_policies.md) and [Bedrock Member Technical Policies](../gf_controlled/member_top.md). This Self-Certification is reviewed by the responsible Bedrock Governing Body and reported to the Bedrock Governing Board prior to approval of the Steward.
 
 ### Trust Assurance Matrix
-The BBU Trust Assurance Matrix is a tabbed spreadsheet which correlates existing Bedrock Governance Framework Policy statements across BBU Governance Framework documents and relevant stakeholders. This matrix is the foundation of self and third-party audits needed to verify compliance to the Sovrin Governance Framework.
+The BBU Trust Assurance Matrix is a tabbed spreadsheet which correlates existing Bedrock Governance Framework Policy statements across BBU Governance Framework documents and relevant stakeholders. This matrix is the foundation of self and third-party audits needed to verify compliance to the Bedrock Consortium Governance Framework.
 
 © 2020 by Bedrock Consortium. This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International License ( http://creativecommons.org/licenses/by-sa/4.0/ ).

@@ -86,7 +86,7 @@ The Bedrock Governance Framework Master Document and the Controlled Documents li
 
 ### General
 1. The Consortium MUST publish BBU Governance Bodies as a Controlled Document managed by the Board of Directors.
-2. BBU Governance Bodies MUST specify the Sovrin Governing Body for each Controlled Document.
+2. BBU Governance Bodies MUST specify the Bedrock Consortium Governing Body for each Controlled Document.
 3. All BBU-GF documents, including Controlled Documents, MUST use keywords in policies as defined in [IETF RFC 2119](https://tools.ietf.org/html/rfc2119).
 4. All BBU-GF documents MAY be revised to add non-normative
 content, such as references to appendices, white papers, or other explanatory materials, without triggering a formal revision review process as defined in this ```Governance Section```.
