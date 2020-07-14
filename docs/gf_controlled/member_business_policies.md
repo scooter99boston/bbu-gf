@@ -77,10 +77,10 @@ Before a Member may qualify to have an active Validator Node on the Utility, the
 
 After a Member has qualified to have an active Validator Node, the Member MUST designate the Utility environment(s) (e.g., prod, test, dev) which their Node may be activated.
 
-	1. The Member MUST make this designation following the procedures specified by the Technical Steering Committee.
-	1. The Member MUST designate activation in at least one Utility environment.
-	1. The Member MAY designate activation in more than one Utility environment.
-	1. The Member MUST have at least one node designated for production.
+1. The Member MUST make this designation following the procedures specified by the Technical Steering Committee.
+1. The Member MUST designate activation in at least one Utility environment.
+1. The Member MAY designate activation in more than one Utility environment.
+1. The Member MUST have at least one node designated for production.
 
 ## 4. Operation
 
