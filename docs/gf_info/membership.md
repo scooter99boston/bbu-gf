@@ -36,16 +36,15 @@ The Governing Board maintains a **FIFO Waiting List** of Operational Members tha
 Building on our [Glossary](./glossary.md), participants in the Consortium are referred to as *Trust Community Members*. These business entities agreed to participate in the *Trust Community* known as the Bedrock Consortium. Participation in the Consortium is possible via formal legal contracts or membership agreements.
 
 ### Annual Membership
+Membership details herein provide a synopsis of the information outlined in "Exhibit B" and "Exhibit C" of the Bedrock Consortium Charter within the [Bedrock Consortium Participation Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx) (the "Participation Agreement").
 
 Private sector entities (businesses) can join and renew membership on an annual basis under three possible membership types:
 
-| Membership Type | Validator Node Hosting Required | Governing Body Participation Required | Authorized Endorser Privileges (Ledger Writes) |
+| Membership Type | Validator Node Hosting Required | Required Governing Body Participation  | Authorized Endorser Privileges (Ledger Writes) |
 | --- | --- | --- | --- |
-| Governing Member | Yes | Yes - 1 Per Governing Body |Yes - Unlimited |
-| Operational Member | Yes | Yes - 2 |Yes - Unlimited |
+| Governing Member | Yes - 1 | Yes - 1 Person Per Governing Body |Yes - Unlimited |
+| Operational Member | Yes - 1 | Yes - 2 Persons |Yes - Unlimited |
 | Subscriber | No | No | Yes - Limited |
-
-Membership details herein provide a synopsis of the information outlined in "Exhibit B" and "Exhibit C" of the Bedrock Consortium Charter within the [Bedrock Consortium Participation Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx) (the "Participation Agreement").
 
 1. Governing Member:
     * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Utility.
@@ -94,7 +93,7 @@ Membership details herein provide a synopsis of the information outlined in "Exh
 ### Members and non-Members
 
 1. Transaction Author
-    * **Description**: Any entity that is the submitter of a write transaction in support of using the ledger for decentralized identity interactions. 
+    * **Description**: Any entity that is the submitter of a write transaction in support of using the ledger for decentralized identity interactions.
     * **Obligations**:
         1. MUST sign the required *Transaction Author Agreement* as set forth in ```Exhibit B``` of the Participation Agreement.
         2. MAY interact with a *Transaction Endorser* for the processing of write requests to the ledger.
