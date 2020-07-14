@@ -1,10 +1,10 @@
-The concepts outlined herein provide an informational synopsis for the operation of the Bedrock Business Utility and participation in the Bedrock Business Directed Fund Project. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
+The concepts outlined herein provide an informational synopsis for the operation of the Bedrock Business Utility and participation in the Bedrock Consortium. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
 
 ## Utility Infrastructure Requirements
 The Utility is an instance of a [ToIP Layer One Public Utility](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0289-toip-stack#layer-one-public-utilities-for-decentralized-identifiers-dids) based on [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) ("Indy"). In order to establish an operational budget for the Utility, several  infrastructure assumptions must be considered.
 
 1. Budgetary requirements dictate how much revenue is required to keep the Utility sustainable.
-2. Distributed ledger technologies, like Indy, leverage consensus algorithms that come with an optimal consensus threshold. This threshold value dictates the number of validator nodes required to operate the Utility. To meet the needs of a decentralized ledger, each validator node must be operated by an independent and unique participant. Therefore, a quantity requirement associated with one or more classes of members will be tied to the number of required validator nodes. Validator nodes may also be referred to as *utility infrastructure nodes* or *Stewards* from a historical [Sovrin Foundation](http://sovrin.org) context.
+2. Distributed ledger technologies, like Indy, leverage consensus algorithms that come with an optimal consensus threshold. This threshold value dictates the number of validator nodes required to operate the Utility. To meet the needs of a decentralized ledger, each validator node must be operated by an independent and unique participant. Therefore, a quantity requirement associated with one or more classes of members will be tied to the number of required validator nodes. Validator nodes may also be referred to as *utility infrastructure nodes* or *Stewards* from a historical [Sovrin Foundation](http://sovrin.org) context. See [Glossary](./glossary.md) for more details.
 
 A balance between budget requirements and technology limitations will define the number of validator nodes required to operate the Utility. Initially this will be set at twenty-five (25) utility infrastructure nodes. The set of active nodes on the network will be periodically pulled from a pool of available nodes.
 
@@ -30,7 +30,7 @@ The number of Board of Director seats SHOULD be consistent as the population of 
 |13	|52	|0.25|
 |15	|60	|0.25|
 
-The Governing Board MUST maintain a **FIFO Waiting List** of Operational Members that have maintained consistent membership. This  list shall be used to offer new Governing Board seats upon availability due to attrition or growth.
+The Governing Board maintains a **FIFO Waiting List** of Operational Members that have maintained consistent membership. Position on the waiting list is based upon date of membership of the Operational Member. This list shall be used to offer new Governing Board seats upon availability due to attrition or growth.
 
 ## Membership Types
 Building on our [Glossary](./glossary.md), participants in the Consortium are referred to as *Trust Community Members*. These business entities agreed to participate in the *Trust Community* known as the Bedrock Consortium. Participation in the Consortium is possible via formal legal contracts or membership agreements.
@@ -99,5 +99,4 @@ Private sector entities (businesses) can join and renew membership on an annual 
     * **Benefits**:
         1. Ability to use ledger for decentralized identity interactions.  
 
-2. Contributors to the Technical Project
-    * **Description**: A category of membership that is limited to Associate Members of the Linux Foundation. This membership category is limited to participation in Committees within the Technical Project.
+2. Contributors to the Technical Project: Contributions to the Technical Project are made pursuant to the terms of the Technical Charter for the Technical Project.
