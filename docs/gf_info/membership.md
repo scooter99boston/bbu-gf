@@ -45,58 +45,62 @@ Private sector entities (businesses) can join and renew membership on an annual 
 | Operational Member | Yes | Yes - 2 |Yes - Unlimited |
 | Subscriber | No | No | Yes - Limited |
 
+Membership details herein provide a synopsis of the information outlined in "Exhibit B" and "Exhibit C" of the Bedrock Consortium Charter within the [Bedrock Consortium Participation Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx) (the "Participation Agreement").
+
 1. Governing Member:
-    * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Utility. Minimally, this requires the member to contribute a *Validator Node* to the operation of the Ledger.
-    * **Ledger Roles**:
-        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in ```Exhibit C``` of the Participation Agreement.
-        2. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
+    * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Utility.
+    * **Obligations**:
+        1. MUST host one or more utility infrastructure *Validator Nodes* as defined in ```Exhibit C``` of the Participation Agreement.
+        2. MUST sign the required Utility Agreements as set forth in ```Exhibit B``` of the Participation Agreement.
+        3. MUST assign appropriately skilled resources, as detailed in ```Exhibit B``` of the Participation Agreement, that will meet the required commitments for the Governing Board, the Committees, additional committees or working groups established by the Directed Fund in the future, and the Technical Project.
+    * **Entitlements**:
+        1. MAY appoint a representative on the Governing Board, provided, however, that a Utility Service Provider may not appoint a representative to the Governing Board.
+        2. MAY appoint a representative to any Committee, provided that a Utility Service Provider may not appoint a representative to the Finance Committee.
+        3. MAY act, pending signed Utility Agreements, as a Transaction Endorser.
+        4. MAY write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
     * **Restrictions**:
         1. Membership is limited to the number of Board of Director seats available.
         2. A FIFO waiting list is maintained by Governing Board to allow for new members to fill voids left by exiting members.
-        3. Must sign the required ```Utility Agreements``` as set forth in the Participation Agreement.
-        4. Utility Service Providers MAY NOT be a Governing Member.
-        5. Utility Service Providers MAY NOT participate in the Finance Committee.
-    * **Benefits**:
-        1. A single representative on the Board of Directors.
-        2. Appointment of representatives to any Committee within the Directed Fund.
-        3. Approval, pending signed ```Utility Agreements```, to act as a Transaction Endorser.
-        4. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
+        3. Utility Service Providers MAY NOT be a Governing Member.
+        4. Utility Service Providers MAY NOT participate in the Finance Committee.
+
+    From 12 months after the inception of the Directed Fund, or from such other point in time as the Governing Board may decide, a new Member may join the Directed Fund as a Governing Member only if the total number of Governing Board Members (including the new Member in this count) is equal to or less than 25% of the total number of Stewards of the Utility (e.g., the total of Governing Members and Operational Members).  The Directed Fund will maintain a waiting list of Operational Members that wish to become Governing Members, and new Governing Member spots will be allocated according to seniority of Operational Member status among Operational Members on the waiting list.
 
 2. Operational Member
     * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Network. Minimally, this requires the member to contribute a *Validator Node* to the operation of the Ledger.
-    * **Ledger Roles**:
-        1. *Validator Node*: Must host one or more utility infrastructure nodes as defined in ```Exhibit C``` of the Participation Agreement.
-        2. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
+    * **Obligations**:
+        1. MUST host one or more utility infrastructure *Validator Nodes* as defined in ```Exhibit C``` of the Participation Agreement.
+        2. MUST sign the required Utility Agreements as set forth in ```Exhibit B``` of the Participation Agreement.
+        3. MUST assign appropriately skilled resources, as detailed in ```Exhibit B``` of the Participation Agreement, that will meet the required commitments of at least one Committee and the Technical Project.
+    * **Entitlements**:
+        1. MAY appoint a representative to any Committee.
+        2. MAY act, pending signed Utility Agreements, as a Transaction Endorser.
+        3. MAY write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
+        4. MAY request to be added to the Governing Member waiting list.
     * **Restrictions**:
-        1. Must sign the required ```Utility Agreements``` as set forth in the Participation Agreement.
-        2. Membership is limited to the number of nodes required to maintain optimal consensus performance. The optimal limit here must take into consideration a balance with decentralization requirements. The Governing Board will annually determine the number of nodes required to meet both consensus, decentralization, and budgetary requirements.
-    * **Benefits**:
-        1. Appointment of representatives to any Committee within the Directed Fund.
-        2. Approval, pending signed ```Utility Agreements```, to act as a Transaction Endorser.
-        3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
-        4. Members with continuous participation, can reserve a position to be invited as a Governing Steward via a FIFO waiting list.
+        1. Membership is limited to the number of nodes required to maintain optimal consensus performance. The optimal limit here must take into consideration a balance with decentralization requirements. The Governing Board will annually determine the number of nodes required to meet both consensus, decentralization, and budgetary requirements.
 
 3. Subscriber
     * **Description**: Members that are willing to be responsible for the endorsement of transactions to the ledger.
-    * **Ledger Roles**:
-        1. *Transaction Endorser*: APPROVED for the endorsement for *Transaction Author* write requests.
-    * **Restrictions**:
-        1. Must sign the required ```Utility Agreements``` as set forth in the Participation Agreement.
-    * **Benefits**:
-        1. Appointment of representatives to any Committee within the Directed Fund.
-        2. Approval, pending signed ```Utility Agreements```, to act as a Transaction Endorser.
-        3. Write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
+    * **Entitlements**:
+        1. MAY appoint a representative to any Committee.
+        2. MAY act, pending signed Utility Agreements, as a Transaction Endorser.
+        3. MAY write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
 
-### Non-Membership Roles
+4. All Members are entitled to:
+    1. Participate in Directed Fund general meetings, initiatives, events and any other activities; and
+    2. Identify themselves as members of the Bedrock Business Utility Fund supporting the Bedrock Consortium community.
+
+### Members and non-Members
 
 1. Transaction Author
-    * **Description**: Any entity (member or non-member) that is the submitter of a write transaction.
-    **Ledger Roles**:
-        1. *Transaction Author*: Interacts with a *Transaction Endorser* for the processing of write requests.
+    * **Description**: Any entity that is the submitter of a write transaction in support of using the ledger for decentralized identity interactions. 
+    * **Obligations**:
+        1. MUST sign the required *Transaction Author Agreement* as set forth in ```Exhibit B``` of the Participation Agreement.
+        2. MAY interact with a *Transaction Endorser* for the processing of write requests to the ledger.
     * **Restrictions**:
-        1. Only the transaction types outlined in the Utilities [ledger access policies](../gf_controlled/ledger_access_policies.md) and [ledger data policies](../gf_controlled/ledger_data_policies.md) are permitted.
-        2. MUST sign the ```Utility Agreements``` as defined in the Participation Agreement.
-    * **Benefits**:
+        1. Can only submit those transaction types outlined in the [BBU Constitution](https://bedrock-consortium.github.io/bbu-gf/gf_info/masterdoc/), specifically the [ledger access policies](../gf_controlled/ledger_access_policies.md) and [ledger data policies](../gf_controlled/ledger_data_policies.md).
+    * **Entitlements**:
         1. Ability to use ledger for decentralized identity interactions.  
 
 2. Contributors to the Technical Project: Contributions to the Technical Project are made pursuant to the terms of the Technical Charter for the Technical Project.
