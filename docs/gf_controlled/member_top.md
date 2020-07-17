@@ -18,6 +18,8 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 4. The Bedrock Board of Directors MAY leverage the Technical Steering Committee (TSC) or another 3rd party service to maintain a version of the Bedrock Open Source Code.
 5. The Bedrock Board of Directors SHOULD require the TSC and/or the Utility Service Provider to automate any prescribed tools that are expected to be used by a node.
 6. The Bedrock Board of Directors MUST require the TSC and/or the Utility Service Provider to clearly articulate the mechanism by which a Steward schedules and communicates downtime.
+7. The Bedrock Board of Directors SHOULD require the TSC and the Utility Service Provider to RECOMMEND that members use the [Hyperledger Blockchain Automation Framework](https://github.com/hyperledger-labs/blockchain-automation-framework) (BAF) when standing up their Steward node if they are not going to procure Node-aaS from a Hosting Provider. BAF provides a consistent delivery/ deployment architecture to standup up and maintain a single Hyperledger Indy node for a Steward. 
+
 
 ## 2. General Security Policies
 
