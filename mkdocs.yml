@@ -12,27 +12,29 @@ nav:
     - 'Pricing': 'gf_info/fee_schedule.md'
 - Constitutional:
     - 'Master Document': 'gf_info/masterdoc.md'
-    - 'Glossary': 'gf_info/glossary.md'
-    - Controlled:
-        - 'Governing Bodies': 'gf_controlled/governing_bodies.md'
-        - 'Consortium Bylaws': 'gf_controlled/by_laws.md'
-        - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
-        - 'Ledger Access Policies': 'gf_controlled/ledger_access_policies.md'
-        - 'Ledger Data Policies': 'gf_controlled/ledger_data_polices.md'
-        - 'Member Business Policies': 'gf_controlled/member_business_policies.md'
-        - 'Member Technical and Organizational Policies': 'gf_controlled/member_top.md'
-        - 'Endorser Business Policies': 'gf_controlled/endorser_business_policies.md'
-        - 'Endorser Technical and Organizational Policies': 'gf_controlled/endorser_top.md'
-        - 'Economic Policies': 'gf_controlled/economic_policies.md'
-        - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
-        - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'
-    - Legal:
-        - 'Architecture': 'gf_legal/legal_arch.md'
-        - 'Services': 'gf_legal/legal_services.md'
-        - 'Member Agreements': 'gf_legal/member_agreements.md'
-        - 'Non-Member Agreements': 'gf_legal/non_member_agreements.md'
-- Compliance:
-    - 'Trust Assurance': 'gf_assurance/index.md'
+    - Controlled Documents:
+        - 'Glossary': 'gf_info/glossary.md'
+        - Consortium Policies:
+            - 'Governing Bodies': 'gf_controlled/governing_bodies.md'
+            - 'Consortium Bylaws': 'gf_controlled/by_laws.md'
+            - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
+            - 'Economic Policies': 'gf_controlled/economic_policies.md'
+            - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
+            - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'
+        - Operating Policies:
+            - 'Ledger Access Policies': 'gf_controlled/ledger_access_policies.md'
+            - 'Ledger Data Policies': 'gf_controlled/ledger_data_polices.md'
+            - 'Steward Business Policies': 'gf_controlled/member_business_policies.md'
+            - 'Steward Technical and Organizational Policies': 'gf_controlled/member_top.md'
+            - 'Endorser Business Policies': 'gf_controlled/endorser_business_policies.md'
+            - 'Endorser Technical and Organizational Policies': 'gf_controlled/endorser_top.md'
+        - Legal:
+            - 'Architecture': 'gf_legal/legal_arch.md'
+            - 'Services': 'gf_legal/legal_services.md'
+            - 'Member Agreements': 'gf_legal/member_agreements.md'
+            - 'Non-Member Agreements': 'gf_legal/non_member_agreements.md'
+        - Compliance:
+            - 'Trust Assurance': 'gf_assurance/index.md'
 - Help:
     - 'FAQ': 'faq.md'
     - 'Contact us': 'contact_us.md'

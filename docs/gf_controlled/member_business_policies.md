@@ -1,8 +1,8 @@
-# Member Business Policies
+# Steward Business Policies
 
 This is a Controlled Document of the Bedrock Governance Framework was approved by the Bedrock Consortium Board of Directors.
 
-| Document Name | Member Business Policies |
+| Document Name | Steward Business Policies |
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |

@@ -1,8 +1,8 @@
-# Member Technical and Organizational Policies
+# Steward Technical and Organizational Policies
 
 This is a Controlled Document of the Bedrock Governance Framework was approved by the Bedrock Consortium Board of Directors.
 
-| Document Name | Member Technical and Organizational Policies |
+| Document Name | Steward Technical and Organizational Policies |
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
@@ -18,22 +18,22 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 4. The Bedrock Board of Directors MAY leverage the Technical Steering Committee (TSC) or another 3rd party service to maintain a version of the Bedrock Open Source Code.
 5. The Bedrock Board of Directors SHOULD require the TSC and/or the Utility Service Provider to automate any prescribed tools that are expected to be used by a node.
 6. The Bedrock Board of Directors MUST require the TSC and/or the Utility Service Provider to clearly articulate the mechanism by which a Steward schedules and communicates downtime.
-7. The Bedrock Board of Directors SHOULD require the TSC and the Utility Service Provider to RECOMMEND that members use the [Hyperledger Blockchain Automation Framework](https://github.com/hyperledger-labs/blockchain-automation-framework) (BAF) when standing up their Steward node if they are not going to procure Node-aaS from a Hosting Provider. BAF provides a consistent delivery/ deployment architecture to standup up and maintain a single Hyperledger Indy node for a Steward. 
+7. The Bedrock Board of Directors SHOULD require the TSC and the Utility Service Provider to RECOMMEND that Stewards use the [Hyperledger Blockchain Automation Framework](https://github.com/hyperledger-labs/blockchain-automation-framework) (BAF) when standing up their Steward node if they are not going to procure Node-aaS from a Hosting Provider. BAF provides a consistent delivery/ deployment architecture to standup up and maintain a single Hyperledger Indy node for a Steward.
 
 
 ## 2. General Security Policies
 
-1. A Member MUST maintain and follow IT security policies and practices that are integral to maintaining protection of all services provided in association with the Participation Agreement (“Member Services”). These policies MUST be mandatory for all employees of the Member involved with providing the Member Services. The Member shall designate its CIO or another officer to provide executive oversight for such policies, including formal governance and revision management, employee education, and compliance enforcement.
-2. A Member MUST review its IT security policies at least annually and amend such policies as the Member deems reasonable to maintain protection of its Member Services.
-3. Because Node administrators are a potential threat vector, a Member MUST maintain and follow its standard mandatory employment verification requirements for all new hires involved with providing its Member Services and will extend such requirements to wholly-owned subsidiaries involved with providing its Member Services. In accordance with the Member's internal process and procedures, these requirements MUST be periodically reviewed and include, but may not be limited to, criminal background checks, proof of identity validation, and additional checks as deemed necessary by the Member. Each Member company is responsible for implementing these requirements in its hiring process as applicable and permitted under local law.
-4. Employees of a Member involved with providing its Member Services MUST complete security and privacy education annually and certify each year that they will comply with the Member's ethical business conduct, confidentiality, security, privacy, and data protection policies. Additional policy and process training MUST be provided to persons granted administrative access to components that are specific to their role within the Member's operation and support of its Member Services.
-5. If a Member hosts its Node in its own data center, the Member's security policies MUST also adequately address physical security and entry control according to industry best practices.
-6. If the Member hosts its Node using a third-party Hosting Provider, the Member MUST ensure that the security, privacy, and data protection policies of the Hosting Provider meet the requirements in this document.
-7. A Member MUST make available to the Bedrock Consortium upon request evidence of stated compliance with these policies and any relevant accreditations held by the Member, including certificates, attestations, or reports resulting from accredited third-party audits, such as ISO 27001, SSAE SOC 2, or other industry standards.
+1. A Steward MUST maintain and follow IT security policies and practices that are integral to maintaining protection of all services provided in association with the Participation Agreement (“Member Services”). These policies MUST be mandatory for all employees of the Steward involved with providing the Member Services. The Steward shall designate its CIO or another officer to provide executive oversight for such policies, including formal governance and revision management, employee education, and compliance enforcement.
+2. A Steward MUST review its IT security policies at least annually and amend such policies as the Steward deems reasonable to maintain protection of its Member Services.
+3. Because Node administrators are a potential threat vector, a Steward MUST maintain and follow its standard mandatory employment verification requirements for all new hires involved with providing its Member Services and will extend such requirements to wholly-owned subsidiaries involved with providing its Member Services. In accordance with the Steward's internal process and procedures, these requirements MUST be periodically reviewed and include, but may not be limited to, criminal background checks, proof of identity validation, and additional checks as deemed necessary by the Steward. Each Steward company is responsible for implementing these requirements in its hiring process as applicable and permitted under local law.
+4. Employees of a Steward involved with providing its Member Services MUST complete security and privacy education annually and certify each year that they will comply with the Steward's ethical business conduct, confidentiality, security, privacy, and data protection policies. Additional policy and process training MUST be provided to persons granted administrative access to components that are specific to their role within the Steward's operation and support of its Member Services.
+5. If a Steward hosts its Node in its own data center, the Steward's security policies MUST also adequately address physical security and entry control according to industry best practices.
+6. If the Steward hosts its Node using a third-party Hosting Provider, the Steward MUST ensure that the security, privacy, and data protection policies of the Hosting Provider meet the requirements in this document.
+7. A Steward MUST make available to the Bedrock Consortium upon request evidence of stated compliance with these policies and any relevant accreditations held by the Steward, including certificates, attestations, or reports resulting from accredited third-party audits, such as ISO 27001, SSAE SOC 2, or other industry standards.
 
 
 ## 3. General Node Policies
-A Member Node:
+A Steward Node:
 
 1. MUST be available to run as a Validator Node or Observer Node on any of the formal ledgers associated with the Utility environments (i.e.: prod, stage, dev)
 1. MUST run a release of the Bedrock Open Source Code that has been approved and designated by the Bedrock Board of Directors and Technical Steering Committee (TSC).
@@ -52,12 +52,12 @@ A Member Node:
 For all ledgers within the Utility environments list, the following requirements apply to Nodes on the ```prod``` instance of the Utility. These requirements may be downgraded from MUST to SHOULD for any Nodes on ledgers that are for non-production purposes.
 
 1. MUST run on robust server-class hardware.
-2. If a Node is run on a VM, the Member:
+2. If a Node is run on a VM, the Steward:
 
 	1. MUST run on a mainstream hypervisor that receives timely patches from its vendor or community.
 	2. SHOULD apply hypervisor patches on a regular basis.
 
-3. The Node MUST run in an OS that is dedicated to the validator, i.e., a single-purpose (physical or virtual) machine that MUST run Bedrock Open Source Code, MAY run other software approved by the TSC, and MUST NOT run any other software. Software required to support the node, such as monitoring, backup, and configuration management software, are approved as a general category. However, Members should discuss with the TSC any software packages that transmit between the Member Node and the outside.
+3. The Node MUST run in an OS that is dedicated to the validator, i.e., a single-purpose (physical or virtual) machine that MUST run Bedrock Open Source Code, MAY run other software approved by the TSC, and MUST NOT run any other software. Software required to support the node, such as monitoring, backup, and configuration management software, are approved as a general category. However, Stewards should discuss with the TSC any software packages that transmit between the Steward Node and the outside.
 4. MUST run a server with compatible versions of the operating systems supported by the Hyperledger Indy Node requirements as documented in the release notes.
 5. MUST have adequate compute power (in late 2020, 8 or more cores is considered adequate).
 6. MUST have adequate RAM (in late 2020, 32 GB of RAM is considered adequate).
@@ -75,11 +75,11 @@ For all ledgers within the Utility environments list, the following requirements
 
 
 ## 5. Node Security Policies
-A Member:
+A Steward:
 
-1. MUST maintain its [CLI Private Key](../gf_info/glossary.md) on a separate machine from the machine that runs their node. This machine, called the “CLI (Command Line Interface) system”, uses the *CLI Private Key* to authorize the Node to participate in the pool, and is thus the basis for trust for the node and the Member's identity on the network. The CLI system is not required to have high-end hardware, but in terms of IT best practices for security, it must meet or exceed the standards for the Node (see following items).
+1. MUST maintain its [CLI Private Key](../gf_info/glossary.md) on a separate machine from the machine that runs their node. This machine, called the “CLI (Command Line Interface) system”, uses the *CLI Private Key* to authorize the Node to participate in the pool, and is thus the basis for trust for the node and the Steward's identity on the network. The CLI system is not required to have high-end hardware, but in terms of IT best practices for security, it must meet or exceed the standards for the Node (see following items).
 2. MUST provide certification that their Node runs in a locked datacenter with appropriate levels of security, including the specifications that they target (e.g., SSAE 16 type II compliance; other standards may also be acceptable).
-3. MUST assert that their Node is isolated from internal systems of a Member (because the Validator Node is publicly visible and thus an inappropriate candidate for access to privileged internal networks).
+3. MUST assert that their Node is isolated from internal systems of a Steward (because the Validator Node is publicly visible and thus an inappropriate candidate for access to privileged internal networks).
 4. MUST assert that their Node, and its underlying systems, uses state-of-the-art authentication for remote access via   SSH with key plus password plus source IP firewall rule.
 5. SHOULD implement two-factor authentication for SSH access.
 6. MUST NOT allow access (remote or local) to the Node or CLI systems by anyone other than assigned admins.
@@ -96,11 +96,11 @@ A Member:
 See [Issue 24](https://github.com/bedrock-consortium/bbu-gf/issues/24).
 
 ## 6. Node Operating Policies
-A Member:
+A Steward:
 
-1. MUST equip at least two (2) technical points of contact responsible for administering the Member Node with an SMS-capable device for alerting.
+1. MUST equip at least two (2) technical points of contact responsible for administering the Steward Node with an SMS-capable device for alerting.
 2. SHOULD aim to achieve at least 99.9% (three nines) uptime for their Node (this amounts to about 1.4 minutes of downtime per day or 9 hours per year).
-3. SHOULD coordinate downtime with other Members in advance via a mechanism as determined from time to time by agreement between the TSC and any other relevant Bedrock Consortium Governing Body.
+3. SHOULD coordinate downtime with other Stewards in advance via a mechanism as determined from time to time by agreement between the TSC and any other relevant Bedrock Consortium Governing Body.
 
 ## 7. Node Selection Algorithm
 1. The TSC will take direction from the Bedrock Consortium Board of Directors, or a designated Bedrock Workgroup, regarding the configuration parameters associated with the deployment of the Node Selection Algorithm.
@@ -111,10 +111,10 @@ A Member:
 	1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability. See *Diversity Goals* below.
 	1. The Security by Design principles, in particular the principles of System Diversity and Secure Failure. See *Diversity Goals* below.
 
-4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Bedrock Foundation Code Repository and made visible to all Members via a web page on the Bedrock Consortium website.
+4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Bedrock Foundation Code Repository and made visible to all Stewards via a web page on the Bedrock Consortium website.
 
 ## 8. Reporting Policies
-1. A Member MUST report to the responsible Bedrock Consortium Governing Body any substantive change to the configuration or location of a Node within five (5) business days of the change.
+1. A Steward MUST report to the responsible Bedrock Consortium Governing Body any substantive change to the configuration or location of a Node within five (5) business days of the change.
 
 ## 9. Diversity Goals
 While the *Node Selection Algorithm* will be *tuned* from time-to-time to address Performance as well as Decentralization Security by Design principles, the following diversity guidelines SHOULD be considered:
