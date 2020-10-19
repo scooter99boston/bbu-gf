@@ -14,8 +14,8 @@ nav:
     - 'Master Document': 'gf_info/masterdoc.md'
     - Controlled Documents:
         - 'Glossary': 'gf_info/glossary.md'
+        - 'Governing Bodies': 'gf_controlled/governing_bodies.md'
         - Consortium Policies:
-            - 'Governing Bodies': 'gf_controlled/governing_bodies.md'
             - 'Consortium Bylaws': 'gf_controlled/by_laws.md'
             - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
             - 'Economic Policies': 'gf_controlled/economic_policies.md'
