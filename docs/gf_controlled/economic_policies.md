@@ -7,7 +7,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs |Membership, Incentives, Regulatory Compliance |
+| Governs |Membership, Incentives |
 | Governed By | Bedrock Governance Framework Work Group |
 
 ### Membership
@@ -30,12 +30,9 @@ The Bedrock Consortium MUST establish economic procedures that will achieve the 
   1. Request for Proposal publication process.
   2. Provider selection process.
 1. Procurement
-  1. Payment process from Directed Fund for service providers.
+  1. Processes for paying for service providers support.
 
 ### Incentives
 The Bedrock Consortium MAY provision economic incentives designed to for the following purposes:
 
 1. To reward Developers, Agencies, or other community members to contribute to the Bedrock Open Source Code or to any other community asset of benefit to the Consortium, the Bedrock Business Utility or organizations such as the ToIP Foundation.
-
-### Regulatory Compliance
-The Bedrock Consortium MUST provide auditable information (IFRS, International Financial Reporting Standards) about all monetary collections and disbursements. **NEED TO VALIDATE**
