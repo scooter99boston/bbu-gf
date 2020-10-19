@@ -17,10 +17,10 @@ This document lists all official governing bodies of the Bedrock Consortium Foun
 
 ## Preface
 
-1. All Bedrock Consortium Governing Bodies operate under the Bedrock Consortium Governing Body Policies.
-2. By default, all Governing Bodies will leverage the Wiki assigned by the [Linux Foundation Groups Collaboration Tool](https://groups.linuxfoundation.org/). See [Issue 18](https://github.com/bedrock-consortium/bbu-gf/issues/18)
+1. All Bedrock Consortium Governing Bodies operate under the [Bedrock Consortium Governing Body Policies](./governing_body_policies.md).
+2. By default, all Governing Bodies COULD leverage the Wiki assigned by the [Linux Foundation Groups Collaboration Tool](https://groups.linuxfoundation.org/).
 3. For access to the current membership roster, meeting information, agenda, and the minutes of any Bedrock Consortium Governing Body, follow the link to its meeting page.
-4. Unless otherwise noted, membership in any governing body is limited to BBU members in good standing.
+4. Unless otherwise noted, membership in any governing body is limited to Bedrock Consortium Members in good standing.
 
 ## Governing Board
 The Bedrock Consortium Governing Board is the overall governing body of the Bedrock Consortium Foundation. It is chartered by the Bedrock Business Utility Fund as stated in the Participation Agreement. The Governing Board is composed of ```Governing Members``` who have the obligation to represent the interests of the Identity Owners of the Bedrock Consortium Community.
@@ -38,7 +38,7 @@ It has sole authority for:
 ## Technical Steering Committee (TSC)
 The Technical Steering Committee is responsible for the technical design, architecture, and policies governing Bedrock Consortium Infrastructure. Membership in this committee is open for all but it should be comprised of representatives from the Consortium members. The Chair of this committee MUST be a representative of the Steward community.
 
-* **Charter Version**: xx
+* **Charter Version**: 1.0
 * **Charter Approval Date**: 2020-xx-xx
 * **Charter Location**: [Technical Steering Committee Charter]()
 * **Meeting Page Location**: [Technical Steering Committee Meeting Page]()
@@ -56,7 +56,7 @@ The Membership Committee has the following responsibilities:
 2. Membership campaigns to keep membership numbers stable for sustainability
 3. Gathering and synthesizing feedback from members for consumption by the BoD.
 
-* **Charter Version**: xx
+* **Charter Version**: 1.0
 * **Charter Approval Date**: 2020-xx-xx
 * **Charter Location**: [Membership Committee Charter]()
 * **Meeting Page Location**: [Membership Committee Meeting Page]()
@@ -89,7 +89,7 @@ Marcom is targeted interactions with members and prospects using a variety of co
 ### Governance Framework Working Group
 The Bedrock Governance Framework Working Group (BGFWG) is responsible for development and revision of the BBU-GF. The Chair of this working group MUST be a representative of the Steward community.
 
-* **Charter Version**: xx
+* **Charter Version**: 0.9
 * **Charter Approval Date**: 2020-xx-xx
 * **Charter Location**: [Governance Framework Working Group Charter]()
 * **Meeting Page Location**: [Governance Framework Working Group Meeting Page]()

@@ -15,9 +15,9 @@ nav:
     - Controlled Documents:
         - 'Glossary': 'gf_info/glossary.md'
         - 'Governing Bodies': 'gf_controlled/governing_bodies.md'
+        - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
         - Consortium Policies:
-            - 'Consortium Bylaws': 'gf_controlled/by_laws.md'
-            - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
+            - 'Consortium Charter': 'gf_controlled/by_laws.md'
             - 'Economic Policies': 'gf_controlled/economic_policies.md'
             - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
             - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'

@@ -1,4 +1,6 @@
 ## Trust Marks
+Currently, the Bedrock Consortium has not approved the use of any Trust Marks. However, the Governing Board MAY in the future approve the use of one or more Trust Marks. If and when that occurs, the following topics SHOULD be considered by the Governing Board:
+
 1. The Consortium MAY publish the set of Trust Marks designated in this
 document on the BBU website together with:
     1. A link to these policies governing their usage.
