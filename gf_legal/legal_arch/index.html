@@ -1,0 +1,1318 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="The Governance Framework for the Bedrock Business Utility as operated by the Bedrock Consortium Project within the Linux Foundation.">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Architecture - Bedrock Business Utility Governance Framework</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#introduction" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Bedrock Business Utility Governance Framework" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Bedrock Business Utility Governance Framework
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Architecture
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Bedrock Business Utility Governance Framework" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Bedrock Business Utility Governance Framework
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Informational
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Informational
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/consortium/" title="Consortium" class="md-nav__link">
+      Consortium
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/transition/" title="Motivation" class="md-nav__link">
+      Motivation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/membership/" title="Membership" class="md-nav__link">
+      Membership
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/business_model_concepts/" title="Business Model" class="md-nav__link">
+      Business Model
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/fee_schedule/" title="Pricing" class="md-nav__link">
+      Pricing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Constitutional
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Constitutional
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/masterdoc/" title="Master Document" class="md-nav__link">
+      Master Document
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Controlled Documents
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Controlled Documents
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/glossary/" title="Glossary" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/governing_bodies/" title="Governing Bodies" class="md-nav__link">
+      Governing Bodies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/governing_body_policies/" title="Governing Body Policies" class="md-nav__link">
+      Governing Body Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-4" type="checkbox" id="nav-2-2-4">
+    
+    <label class="md-nav__link" for="nav-2-2-4">
+      Consortium Policies
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-4">
+        Consortium Policies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/by_laws/" title="Consortium Charter" class="md-nav__link">
+      Consortium Charter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/economic_policies/" title="Economic Policies" class="md-nav__link">
+      Economic Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/certification_mark_policies/" title="Certification Mark Policies" class="md-nav__link">
+      Certification Mark Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/trusted_network_policies/" title="Trusted Network Polices" class="md-nav__link">
+      Trusted Network Polices
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-5" type="checkbox" id="nav-2-2-5">
+    
+    <label class="md-nav__link" for="nav-2-2-5">
+      Operating Policies
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-5">
+        Operating Policies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/ledger_access_policies/" title="Ledger Access Policies" class="md-nav__link">
+      Ledger Access Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/ledger_data_polices/" title="Ledger Data Policies" class="md-nav__link">
+      Ledger Data Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/member_business_policies/" title="Steward Business Policies" class="md-nav__link">
+      Steward Business Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/member_top/" title="Steward Technical and Organizational Policies" class="md-nav__link">
+      Steward Technical and Organizational Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/endorser_business_policies/" title="Endorser Business Policies" class="md-nav__link">
+      Endorser Business Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/endorser_top/" title="Endorser Technical and Organizational Policies" class="md-nav__link">
+      Endorser Technical and Organizational Policies
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-6" type="checkbox" id="nav-2-2-6" checked>
+    
+    <label class="md-nav__link" for="nav-2-2-6">
+      Legal
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-6">
+        Legal
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Architecture
+      </label>
+    
+    <a href="./" title="Architecture" class="md-nav__link md-nav__link--active">
+      Architecture
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-protection" class="md-nav__link">
+    Data Protection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legal-architecture" class="md-nav__link">
+    Legal Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actors-roles" class="md-nav__link">
+    Actors &amp; Roles
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bedrock-consortium" class="md-nav__link">
+    Bedrock Consortium
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consortium-members" class="md-nav__link">
+    Consortium Members
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-authors" class="md-nav__link">
+    Transaction Authors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorsers" class="md-nav__link">
+    Transaction Endorsers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subscribers" class="md-nav__link">
+    Subscribers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stewards" class="md-nav__link">
+    Stewards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#utility-access-policies" class="md-nav__link">
+    Utility Access Policies
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permissioned-write-access" class="md-nav__link">
+    Permissioned Write Access
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-write-access" class="md-nav__link">
+    Public Write Access
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legal-document-architecture" class="md-nav__link">
+    Legal Document Architecture
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary-legal-agreements" class="md-nav__link">
+    Primary Legal Agreements
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#participation-agreement" class="md-nav__link">
+    Participation Agreement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-author-agreement" class="md-nav__link">
+    Transaction Author Agreement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorser-agreement" class="md-nav__link">
+    Transaction Endorser Agreement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steward-agreement" class="md-nav__link">
+    Steward Agreement
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-processing-agreements-dpas" class="md-nav__link">
+    Data Processing Agreements (DPAs)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorser-dpa" class="md-nav__link">
+    Transaction Endorser DPA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steward-dpa" class="md-nav__link">
+    Steward DPA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-and-organizational-policies-tops" class="md-nav__link">
+    Technical and Organizational Policies (TOPs)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorser-tops" class="md-nav__link">
+    Transaction Endorser TOPs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steward-tops" class="md-nav__link">
+    Steward TOPs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../legal_services/" title="Services" class="md-nav__link">
+      Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../member_agreements/" title="Member Agreements" class="md-nav__link">
+      Member Agreements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../non_member_agreements/" title="Non-Member Agreements" class="md-nav__link">
+      Non-Member Agreements
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-7" type="checkbox" id="nav-2-2-7">
+    
+    <label class="md-nav__link" for="nav-2-2-7">
+      Compliance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-7">
+        Compliance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_assurance/" title="Trust Assurance" class="md-nav__link">
+      Trust Assurance
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Help
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Help
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contact_us/" title="Contact us" class="md-nav__link">
+      Contact us
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-protection" class="md-nav__link">
+    Data Protection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legal-architecture" class="md-nav__link">
+    Legal Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actors-roles" class="md-nav__link">
+    Actors &amp; Roles
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bedrock-consortium" class="md-nav__link">
+    Bedrock Consortium
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consortium-members" class="md-nav__link">
+    Consortium Members
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-authors" class="md-nav__link">
+    Transaction Authors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorsers" class="md-nav__link">
+    Transaction Endorsers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subscribers" class="md-nav__link">
+    Subscribers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stewards" class="md-nav__link">
+    Stewards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#utility-access-policies" class="md-nav__link">
+    Utility Access Policies
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permissioned-write-access" class="md-nav__link">
+    Permissioned Write Access
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-write-access" class="md-nav__link">
+    Public Write Access
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legal-document-architecture" class="md-nav__link">
+    Legal Document Architecture
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary-legal-agreements" class="md-nav__link">
+    Primary Legal Agreements
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#participation-agreement" class="md-nav__link">
+    Participation Agreement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-author-agreement" class="md-nav__link">
+    Transaction Author Agreement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorser-agreement" class="md-nav__link">
+    Transaction Endorser Agreement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steward-agreement" class="md-nav__link">
+    Steward Agreement
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-processing-agreements-dpas" class="md-nav__link">
+    Data Processing Agreements (DPAs)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorser-dpa" class="md-nav__link">
+    Transaction Endorser DPA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steward-dpa" class="md-nav__link">
+    Steward DPA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-and-organizational-policies-tops" class="md-nav__link">
+    Technical and Organizational Policies (TOPs)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transaction-endorser-tops" class="md-nav__link">
+    Transaction Endorser TOPs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steward-tops" class="md-nav__link">
+    Steward TOPs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Architecture</h1>
+                
+                <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The Bedrock Business Utility (the "Utility") is governed by the Bedrock Consortium as a dedicated public-permissioned blockchain ledger. The nodes of this immutable Utility are hosted by a variety of business entities around the world, called Stewards. The Utility is intended to enable Transaction Authors (see below) to publish decentralized identifiers (DIDs) and other cryptographic data structures required for the issuance and verification of digital credentials.</p>
+<p><img alt="bbu-prj-org" src="../../img/bbu-prj-org.png" /></p>
+<p>The Utility is legally represented as three (3) distinct but related legal entities which are associated with a collection of contractual instruments. The <em>Bedrock Business Utility  Fund</em> (the “Directed Fund”), is a directed fund project of The Linux Foundation (the "LF").  The Directed Fund serves two purposes:</p>
+<ol>
+<li>Manage the operation and maintenance of the Bedrock Business Utility (“the Utility”), a LF Operational Project (a Delaware series limited liability company)</li>
+<li>Support for the Bedrock Technical Project, (the “Technical Project”), an open source project, a LF Network Project.</li>
+</ol>
+<p>It is expected that the Utility will be used primarily by businesses who have a need to exchange trusted data such as digital credentials. The credentials themselves are never written to the Utility so issuers of these credentials ( <em>Transaction Authors</em>) have no need to write data to the Utility. This approach avoids issuers increasing risks associated with personal data under data protection regulations such as the EU General Data Protection Regulation (GDPR), the Canadian Personal Information Protection and Electronic Documents Act (PIPEDA), or the California Consumer Privacy Act (CCPA).</p>
+<h2 id="data-protection">Data Protection<a class="headerlink" href="#data-protection" title="Permanent link">&para;</a></h2>
+<p>The Sovrin Foundation in conjunction with its legal counsel <a href="https://www.perkinscoie.com/en/">Perkins Coie</a> published a white paper providing a detailed legal analysis of the applicability of the GDPR to the Sovrin Utility and Sovrin Network.  The <a href="https://sovrin.org/wp-content/uploads/GDPR-Paper_V1.pdf">GDPR Position Paper</a> assesses data protection requirements at Layers 1-3 of the ToIP Stack.</p>
+<p>The Bedrock Consortium recognizes this work-product as prior art given its applicability to any public identity utility. This paper is a foundational legal document for the importance of permissioned-write access to the ledger. See <a href="https://github.com/bedrock-consortium/bbu-gf/issues/16">Issue 16</a> pertaining to the storage location of this paper after the transition effort of the Sovrin Foundation.</p>
+<h2 id="legal-architecture">Legal Architecture<a class="headerlink" href="#legal-architecture" title="Permanent link">&para;</a></h2>
+<p>The following figure is a visual illustration of the key roles and agreements in the Bedrock Consortium’s legal framework for regulatory compliance with data protection laws. Although it uses terms from the GDPR, it is intended for compliance with general data protection regulations.</p>
+<p><img alt="legal-doc-arch" src="../../img/legal-doc-arch.png" /></p>
+<p>The following sections explain the actors, roles, policies, and legal agreements depicted in this diagram. Note that formal definitions for all terms that appear in First Letter Capitals are provided in the <a href="../../gf_info/glossary/">Glossary</a>.</p>
+<h2 id="actors-roles">Actors &amp; Roles<a class="headerlink" href="#actors-roles" title="Permanent link">&para;</a></h2>
+<h3 id="bedrock-consortium">Bedrock Consortium<a class="headerlink" href="#bedrock-consortium" title="Permanent link">&para;</a></h3>
+<p>The Bedrock Consortium is an international non-profit public trust organization chartered to provide governance for the Bedrock Business Utility. Represented by the Governing Board of the Utility, the Consortium represents the <em>Designated Data Controller</em>. In this role, the Consortium is a broker between Transaction Authors, the <em>Primary Data Controller</em>, and other Utility actors.</p>
+<h3 id="consortium-members">Consortium Members<a class="headerlink" href="#consortium-members" title="Permanent link">&para;</a></h3>
+<p>In order to participate in the Consortium as either a Steward, a Transaction Endorser or both; the desired participant MUST sign the Participation Agreement. This agreement allocates write access entitlements by membership level.</p>
+<h3 id="transaction-authors">Transaction Authors<a class="headerlink" href="#transaction-authors" title="Permanent link">&para;</a></h3>
+<p>A Transaction Author is any Organization who submits a Transaction to be written to the Utility. This role in the BBU-GF is available to both members and non-members. As explained below, under the Permissioned Write Access policies of the BBU-GF, only Organizations may write Transactions. Transaction Authors may write any data type supported by the Utility — see <a href="../gf_controlled/Utility_data_polices.md">What Goes On The Ledger?</a></p>
+<h3 id="transaction-endorsers">Transaction Endorsers<a class="headerlink" href="#transaction-endorsers" title="Permanent link">&para;</a></h3>
+<p>A Transaction Endorser is an Organization that has been approved by the Bedrock Consortium to endorse Transactions on behalf of Transaction Authors. The role of Transaction Endorser is specified by the Permissioned Write Access policies of the BBU-GF. Transaction Endorsers add their digital signature to a Transaction so it will be accepted and written by the Stewards. Transaction Endorsers MUST enter into both the Transaction Endorser Agreement and the Transaction Endorser Data Processing Agreement with the Bedrock Consortium.</p>
+<h3 id="subscribers">Subscribers<a class="headerlink" href="#subscribers" title="Permanent link">&para;</a></h3>
+<p>Subscribers are trusted institutions who desire to participate in the Consortium as Transaction Endorsers. This membership level allows desiring participants to procure a limited number of write transaction units on an annual basis.</p>
+<h3 id="stewards">Stewards<a class="headerlink" href="#stewards" title="Permanent link">&para;</a></h3>
+<p>Stewards are trusted institutions who operate a Node of the Utility. Stewards MUST meet the qualifications specified in <a href="../../gf_controlled/member_business_policies/">Member Business Policies</a> and <a href="../../gf_controlled/member_top/">Member Technical and Organizational Policies</a>. Stewards must enter into both the Steward Agreement and the Steward Data Processing Agreement with the Bedrock Consortium. Stewards are automatically qualified to be Transaction Endorsers but they MUST sign the appropriate Transaction Endorser contracts with the Bedrock Consortium.</p>
+<h3 id="utility-access-policies">Utility Access Policies<a class="headerlink" href="#utility-access-policies" title="Permanent link">&para;</a></h3>
+<p><img alt="legal-roles-concepts" src="../../img/legal-roles-concepts.png" /></p>
+<h4 id="permissioned-write-access">Permissioned Write Access<a class="headerlink" href="#permissioned-write-access" title="Permanent link">&para;</a></h4>
+<p>This is the set of policies that require Transaction Authors to obtain the endorsement of a Transaction Endorser in order to write a Transaction to the Utility. There are two primary reasons for the Permissioned Write Access policy:</p>
+<ol>
+<li>It protects the Utility by requiring Transaction Endorsers, who have a direct contractual relationship with the Bedrock Consortium to enforce the Permissioned Write Access policies, to ensure that a Transaction Author Agreement is in effect and to leverage an allocated write unit as a form of payment for a Transaction. Write Units are acquired based on Membership Type.</li>
+<li>It reduces the risk of Personal Data being written to the  Utility as that is currently prohibited under the Permissioned Write Access policies. The Bedrock Consortium feels this protection is necessary under the current regulatory uncertainty regarding Personal Data on an immutable public ledger. See the <em>Data Protection</em> section of this document for more details.</li>
+</ol>
+<h4 id="public-write-access">Public Write Access<a class="headerlink" href="#public-write-access" title="Permanent link">&para;</a></h4>
+<p>Under Public Write Access policies, the requirement of a Transaction Endorser signing a Transaction Authors request is eliminated; anyone would be able to write to the Utility by following a programmatic process that aims to provide the necessary assurances against privacy compliance risks. <strong>This form of access to the Utility is prohibited under the BBU-GF</strong>.  </p>
+<h2 id="legal-document-architecture">Legal Document Architecture<a class="headerlink" href="#legal-document-architecture" title="Permanent link">&para;</a></h2>
+<h3 id="primary-legal-agreements">Primary Legal Agreements<a class="headerlink" href="#primary-legal-agreements" title="Permanent link">&para;</a></h3>
+<p><img alt="legal-arch-doc-structure" src="../../img/legal-arch-doc-structure.png" /></p>
+<h4 id="participation-agreement">Participation Agreement<a class="headerlink" href="#participation-agreement" title="Permanent link">&para;</a></h4>
+<p>This is the contractual agreement between the Bedrock Consortium and all members. It has been developed by the Linux Foundation in support of Directed Fund projects. This agreement is the binding agreement for all members.</p>
+<h4 id="transaction-author-agreement">Transaction Author Agreement<a class="headerlink" href="#transaction-author-agreement" title="Permanent link">&para;</a></h4>
+<p>This is the contractual agreement between the Bedrock Consortium and all Transaction Authors. It has been developed specifically to protect the right of every Transaction Author to have and hold self-sovereign identity credentials while also protecting the Utility and the infrastructure provided by the Bedrock Consortium as a global public utility. It is intended to give effect to the data protection rights of all Transaction Authors while recognizing the technical and security requirements of a public-permissioned immutable Utility. As part of the Transaction Author Agreement, every Transaction Author also agrees to be bound by the terms and conditions applicable to the Transaction Author as a controller under the Steward Data Processing Agreement and the Transaction and the Transaction Endorser Agreement to include a Data Processing Agreement. The Utility itself is the authoritative record of all Transaction Author Agreement signatures.</p>
+<h4 id="transaction-endorser-agreement">Transaction Endorser Agreement<a class="headerlink" href="#transaction-endorser-agreement" title="Permanent link">&para;</a></h4>
+<p>This is the contractual agreement between the Bedrock Consortium and all Transaction Endorsers. This agreement is simpler in scope than the Transaction Author Agreement. It is limited to enforcing Permissioned Write Access policies and verifying that Transaction Authors have executed the Transaction Author Agreement. The Transaction Endorser Agreement requires that the Transaction Endorser separately execute the Transaction Endorser Data Processing Agreement and includes a current version of the Transaction Author Agreement as an Appendix. This agreement <strong>does not</strong> address the exchange of payment (value) between the Transaction Endorser and the Transaction Author. Such usage fees associated with the allocation of write transaction entitlements is <em>out-of-scope</em> for the BBU-GF.</p>
+<h4 id="steward-agreement">Steward Agreement<a class="headerlink" href="#steward-agreement" title="Permanent link">&para;</a></h4>
+<p>This is the contractual agreement between the Bedrock Consortium and all Stewards. It covers all the rights and obligations of the Bedrock Consortium and Stewards under the Bedrock Governance Framework. The Steward Agreement requires that the Steward separately execute the Steward Data Processing Agreement.</p>
+<h3 id="data-processing-agreements-dpas">Data Processing Agreements (DPAs)<a class="headerlink" href="#data-processing-agreements-dpas" title="Permanent link">&para;</a></h3>
+<h4 id="transaction-endorser-dpa">Transaction Endorser DPA<a class="headerlink" href="#transaction-endorser-dpa" title="Permanent link">&para;</a></h4>
+<p>This is the DPA required of all Transaction Endorsers acting as Data Processors for the Transaction Author as primary Data Controller and the Bedrock Consortium acting as the Designated Data Controller. It requires that the Transaction Endorser implement its own set of Technical and Operational Measures (TOMs) that MUST meet or exceed the Transaction Endorser Technical and Organizational Policies (TOPs) specified in the Bedrock Governance Framework.</p>
+<h4 id="steward-dpa">Steward DPA<a class="headerlink" href="#steward-dpa" title="Permanent link">&para;</a></h4>
+<p>This is the DPA required of Stewards. It requires that the Steward implement its own TOMs that meets or exceeds the Steward TOPs.</p>
+<h3 id="technical-and-organizational-policies-tops">Technical and Organizational Policies (TOPs)<a class="headerlink" href="#technical-and-organizational-policies-tops" title="Permanent link">&para;</a></h3>
+<h4 id="transaction-endorser-tops">Transaction Endorser TOPs<a class="headerlink" href="#transaction-endorser-tops" title="Permanent link">&para;</a></h4>
+<p>This is the set of policies in the Bedrock Governance Framework that establish the minimum technical and organization policies and procedures that a Transaction Endorser MUST implement in its own Technical and Operational Measures (TOMs) to provide adequate security, privacy, and data protection for Transaction Authors and the Bedrock Consortium.</p>
+<h4 id="steward-tops">Steward TOPs<a class="headerlink" href="#steward-tops" title="Permanent link">&para;</a></h4>
+<p>Similar to the Transaction Endorser TOPs, this is the set of policies in the Bedrock Governance Framework that establish the minimum technical and organization policies and procedures that a Steward must implement in its own Technical and Operational Measures (TOMs) to provide adequate security, privacy, and data protection for Transaction Authors and the Bedrock Consortium.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../gf_controlled/endorser_top/" title="Endorser Technical and Organizational Policies" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Endorser Technical and Organizational Policies
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../legal_services/" title="Services" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Services
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.ac79c3b0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
